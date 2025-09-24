@@ -1,34 +1,29 @@
 @extends('layouts.app')
 @section('content')
 
-<!-- Banner area start here -->
-<section class="banner-inner-area sub-bg bg-image" data-background="assets/images/bg/banner-inner-bg.png">
-    <div class="container">
-        <div class="banner-inner__content">
-            <h1>
-                Courses Details
-            </h1>
-            <ul>
-                <li><a href="{{ route('home') }}">Home</a></li>
-                <li><i class="fa-regular fa-angle-right"></i></li>
-                <li>Courses Details</li>
-            </ul>
-        </div>
-    </div>
-</section>
-<!-- Banner area end here -->
-
 <!-- Courses area start here -->
 <section class="courses-details-two-area pt-120 pb-120">
     <div class="container">
-        <div class="courses-details-two__item bor-bottom pb-30 mb-40">
-            <div class="image mb-40 position-relative">
-                <img src="{{ $course->image_path }}" alt="image">
+
+
+        <div class="breadcrumbs mb-30">
+            <ul>
+                <li><a href="{{ route('home') }}">Home</a></li>
+                <li><i class="fa-regular fa-angle-right"></i></li>
+                <li><a href="{{ route('courses') }}">Courses</a></li>
+                <li><i class="fa-regular fa-angle-right"></i></li>
+                <li>{{ $course->title }}</li>
+            </ul>
+        </div>
+        <div class="d-flex justify-content-between mb-30 flex-wrap gap-4">
+            <div>
+                <h3 class="fs-30">{{ $course->title }}</h3>
             </div>
-            <div class="d-flex justify-content-between flex-wrap gap-4">
-                <div>
-                    <h3 class="fs-30 mb-30">{{ $course->title }}</h3>
-                </div>
+        </div>
+
+        <div class="courses-details-two__item bor-bottom pb-30 mb-40">
+            <div class="image position-relative">
+                <img src="{{ $course->image_path }}" alt="image">
             </div>
         </div>
         <div class="row g-4">
@@ -81,14 +76,36 @@
                 <div class="courses-details__item-right">
                     <div class="item">
                         <h3>Course includes:</h3>
+                        {{--
                         <ul>
                             @foreach($course->data as $data)
+                            @php
+                            $dValue = str_replace(';', '<br/>', $data->value);
+                            @endphp
                             <li>
-                                <p><strong>{{ $data->title }}:</strong> <span>{{ $data->value }}</span></p>
+                                <p><strong>{{ $data->title }}:</strong> <span>{!! $dValue !!}</span></p>
                             </li>
                         	@endforeach
                             
                         </ul>
+                        --}}
+
+                        <table class="table table-responsive snippets-table">
+                            <tbody>
+                                @foreach($course->data as $data)
+                                @php
+                                $dValue = str_replace(';', '<br/>', $data->value);
+                                @endphp
+                                <tr>
+                                    <td>{{ $data->title }}</td>
+                                    <td>{!! $dValue !!}</td>
+                                </tr>
+                                @endforeach
+                            </tbody>
+                        </table>
+
+
+
                         <a href="#0" class="btn-one">Get Details<i
                                 class="fa-light fa-arrow-right-long"></i></a>
                     </div>
