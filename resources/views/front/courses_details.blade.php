@@ -90,7 +90,7 @@
                         </ul>
                         --}}
 
-                        <table class="table table-responsive snippets-table">
+                        <table class="details table table-responsive snippets-table">
                             <tbody>
                                 @foreach($course->data as $data)
                                 @php

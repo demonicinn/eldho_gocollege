@@ -8443,6 +8443,12 @@ img {
 }
 
 
+.details.table tr td {
+  color: var(--paragraph);
+}
+.details.table tr td:first-child {
+  font-weight: bold;
+}
 
 
 
