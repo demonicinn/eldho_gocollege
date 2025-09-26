@@ -144,7 +144,7 @@
         width: 100%;
     }
 .courses-details__item-left td {
-    border-width: initial;
+    border-width: 1px;
     padding: 10px;
     border-color: #e4e4e4;
 }
