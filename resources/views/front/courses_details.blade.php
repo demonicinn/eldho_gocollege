@@ -140,6 +140,9 @@
 
 @section('script')
 <style>
+.courses-details__item-left strong {
+    color: var(--paragraph) !important;
+}
 .courses-details__item-left table {
         width: 100%;
     }
