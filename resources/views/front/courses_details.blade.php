@@ -140,9 +140,7 @@
 
 @section('script')
 <style>
-.courses-details__item-left strong {
-    color: var(--paragraph) !important;
-}
+
 .courses-details__item-left table {
         width: 100%;
     }
@@ -150,6 +148,7 @@
     border-width: 1px;
     padding: 10px;
     border-color: #e4e4e4;
+    color: var(--paragraph) !important;
 }
 </style>
 @endsection
