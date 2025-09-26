@@ -96,7 +96,7 @@
 
             <div class="mb-3">
                 <label class="form-label">Description <sm>*</sm></label>
-                {{ html()->textarea('description')->class('form-control'. ($errors->has('description') ? ' is-invalid' : ''))->rows(5) }}
+                {{ html()->textarea('description')->class('form-control'. ($errors->has('description') ? ' is-invalid' : ''))->rows(10) }}
                 {!! $errors->first('description', '<span class="help-block mb-1">:message</span>') !!}
             </div>
 
@@ -120,9 +120,18 @@
 
 @section('script')
 
-<script src="https://cdn.ckeditor.com/4.22.1/standard/ckeditor.js"></script>
+<script src="https://cdn.ckeditor.com/4.22.1/full/ckeditor.js"></script>
 <script>
-    CKEDITOR.replace( 'description' );
+    // CKEDITOR.replace( 'description' );
+
+    CKEDITOR.replace('description', {
+        contentsCss: [
+            "{{ asset('assets/css/bootstrap.min.css') }}",
+            "{{ asset('assets/css/style.css') }}"
+        ]
+    });
+
+
 
     //remove ck-editor warning
     setTimeout(function () {

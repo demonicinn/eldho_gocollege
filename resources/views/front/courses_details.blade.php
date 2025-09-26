@@ -136,3 +136,12 @@
 <!-- Courses area end here -->
 
 @endsection
+
+
+@section('script')
+<style>
+.courses-details__item-left td {
+    border-width: initial;
+}
+</style>
+@endsection
