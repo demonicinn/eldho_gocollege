@@ -49,6 +49,12 @@ class HomeController extends Controller
 
 
         $course->data = json_decode($course->data);
+        $course->program = json_decode($course->program);
+        $course->learn = json_decode($course->learn);
+        $course->jobTitle = json_decode($course->jobTitle);
+        $course->workEnvironments = json_decode($course->workEnvironments);
+        $course->key_points = json_decode($course->key_points);
+
         return view('front.courses_details', compact('course', 'suggestCourses'));
     }
 

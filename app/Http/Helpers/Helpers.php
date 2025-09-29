@@ -58,3 +58,17 @@
     function testimonials(){
         return \App\Models\Testimonial::where('status', 'active')->orderBy('id', 'desc')->limit(3)->get();
     }
+
+    //...
+    function keyPoints(){
+        return [
+            'Duration',
+            'Salary Range',
+            'Campus',
+            'Partner Colleges',
+            'Delivery Method',
+            'Language',
+            'Financial Aid',
+            'Certification',
+        ];
+    }

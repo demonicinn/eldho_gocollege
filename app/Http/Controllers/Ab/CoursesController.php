@@ -39,23 +39,45 @@ class CoursesController extends Controller
         if($request->isMethod('POST')){
             $request->validate([
                 'title' => 'required|string|max:255',
+                'sub_title' => 'required|string|max:255',
                 'description' => 'required',
                 'college_id' => 'required',
                 'category' => 'required',
-                'data' => 'required',
-                'image' => 'required|image|max:1024',
+
+                'data' => 'required|array',
+                'program' => 'required|array',
+                'learn' => 'required|array',
+                'jobTitle' => 'required|array',
+                'workEnvironments' => 'required|array',
+                'key_points' => 'required|array',
+
+                'image' => 'nullable|image|max:2048',
                 'status' => 'required',
             ]);
 
             $data = array_values($request->data);
+            $program = array_values($request->program);
+            $learn = array_values($request->learn);
+            $jobTitle = array_values($request->jobTitle);
+            $workEnvironments = array_values($request->workEnvironments);
+            $key_points = array_values($request->key_points);
             
+
             $store = new Courses;
             $store->title = $request->title;
+            $store->sub_title = $request->sub_title;
             $store->slug = Str::slug($request->title, '-');
             $store->description = $request->description;
             $store->college_id = $request->college_id;
             $store->category = $request->category;
+
+            //...
             $store->data = json_encode($data);
+            $store->program = json_encode($program);
+            $store->learn = json_encode($learn);
+            $store->jobTitle = json_encode($jobTitle);
+            $store->workEnvironments = json_encode($workEnvironments);
+            $store->key_points = json_encode($key_points);
 
             //...image
             if($request->hasFile('image'))
@@ -92,23 +114,44 @@ class CoursesController extends Controller
         if($request->isMethod('PATCH')){
             $request->validate([
                 'title' => 'required|string|max:255',
+                'sub_title' => 'required|string|max:255',
                 'description' => 'required',
                 'college_id' => 'required',
                 'category' => 'required',
-                'data' => 'required',
-                'image' => 'nullable|image|max:1024',
+
+                'data' => 'required|array',
+                'program' => 'required|array',
+                'learn' => 'required|array',
+                'jobTitle' => 'required|array',
+                'workEnvironments' => 'required|array',
+                'key_points' => 'required|array',
+
+                'image' => 'nullable|image|max:2048',
                 'status' => 'required',
             ]);
 
             $data = array_values($request->data);
+            $program = array_values($request->program);
+            $learn = array_values($request->learn);
+            $jobTitle = array_values($request->jobTitle);
+            $workEnvironments = array_values($request->workEnvironments);
+            $key_points = array_values($request->key_points);
 
             $course->title = $request->title;
+            $course->sub_title = $request->sub_title;
             $course->slug = Str::slug($request->title, '-');
             $course->description = $request->description;
             $course->data = json_encode($request->data);
             $course->college_id = $request->college_id;
             $course->category = $request->category;
+            
+            //...
             $course->data = json_encode($data);
+            $course->program = json_encode($program);
+            $course->learn = json_encode($learn);
+            $course->jobTitle = json_encode($jobTitle);
+            $course->workEnvironments = json_encode($workEnvironments);
+            $course->key_points = json_encode($key_points);
 
             //...image
             if($request->hasFile('image'))
@@ -137,6 +180,11 @@ class CoursesController extends Controller
         $colleges = self::getData('colleges');
 
         $course->data = json_decode($course->data);
+        $course->program = json_decode($course->program);
+        $course->learn = json_decode($course->learn);
+        $course->jobTitle = json_decode($course->jobTitle);
+        $course->workEnvironments = json_decode($course->workEnvironments);
+        $course->key_points = json_decode($course->key_points);
 
         return view('ab.courses.edit', compact('course', 'colleges'));
     }

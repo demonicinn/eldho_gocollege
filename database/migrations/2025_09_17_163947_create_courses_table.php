@@ -20,10 +20,17 @@ return new class extends Migration
             $table->string('category');
 
             $table->string('title');
+            $table->string('sub_title');
             $table->string('slug');
-            $table->string('image');
+            $table->string('image')->nullable();
             $table->longText('description');
-            $table->longText('data');
+
+            $table->longText('data')->nullable();
+            $table->longText('program')->nullable();
+            $table->longText('learn')->nullable();
+            $table->longText('jobTitle')->nullable();
+            $table->longText('workEnvironments')->nullable();
+            $table->longText('key_points')->nullable();
 
             $table->text('meta_title')->nullable();
             $table->text('meta_keyword')->nullable();

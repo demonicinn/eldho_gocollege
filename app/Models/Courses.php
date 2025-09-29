@@ -12,10 +12,17 @@ class Courses extends Model
         'category',
         
         'title',
+        'sub_title',
         'slug',
         'image',
         'description',
+
         'data',
+        'program',
+        'learn',
+        'jobTitle',
+        'workEnvironments',
+        'key_points',
 
         'meta_title',
         'meta_keyword',
