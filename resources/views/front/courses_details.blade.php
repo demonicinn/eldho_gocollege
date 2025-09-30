@@ -168,11 +168,12 @@
                     </div>
                     @endif
 
-
+                    @if(@$course->career_description)
                     <!-- Unique Features -->
                     <div class="testimonial mb-4 mb-md-5">
-                        <p class="text-font fs-6 fw-500">Unlike standard online bookkeeping courses, we combine self-paced learning for flexibility, on-campus learning coaches for one-on-one support, resume building & job prep built into your program, and latest software tools so you graduate with hands-on experience.</p>
+                        <p class="text-font fs-6 fw-500">{!! $course->career_description !!}</p>
                     </div>
+                    @endif
 
                     <!-- Admissions Requirements -->
                     <div class="mb-4 mb-md-5">
