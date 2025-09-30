@@ -23,6 +23,7 @@ class Courses extends Model
         'jobTitle',
         'workEnvironments',
         'key_points',
+        'career_description',
 
         'meta_title',
         'meta_keyword',

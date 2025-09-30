@@ -31,6 +31,7 @@ return new class extends Migration
             $table->longText('jobTitle')->nullable();
             $table->longText('workEnvironments')->nullable();
             $table->longText('key_points')->nullable();
+            $table->longText('career_description')->nullable();
 
             $table->text('meta_title')->nullable();
             $table->text('meta_keyword')->nullable();

@@ -430,6 +430,23 @@
     </div>
 
 
+    <!-- Career Outcomes - Fields -->
+    <div class="row">
+        <div class="card card-primary card-outline mb-4">
+            <div class="card-header mb-3">
+                <div class="card-title">Career Outcomes - Fields</div>
+            </div>
+            
+            <div class="mb-3">
+                <label class="form-label">Career Description <sm>*</sm></label>
+                {{ html()->textarea('career_description')->class('form-control'. ($errors->has('career_description') ? ' is-invalid' : ''))->rows(5) }}
+                {!! $errors->first('career_description', '<span class="help-block mb-1">:message</span>') !!}
+            </div>
+            
+        </div>
+    </div>
+
+
 
 
 

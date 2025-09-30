@@ -79,6 +79,9 @@ class CoursesController extends Controller
             $store->workEnvironments = json_encode($workEnvironments);
             $store->key_points = json_encode($key_points);
 
+            //...
+            $store->career_description = $request->career_description;
+
             //...image
             if($request->hasFile('image'))
             {
@@ -152,6 +155,9 @@ class CoursesController extends Controller
             $course->jobTitle = json_encode($jobTitle);
             $course->workEnvironments = json_encode($workEnvironments);
             $course->key_points = json_encode($key_points);
+
+            //...
+            $course->career_description = $request->career_description;
 
             //...image
             if($request->hasFile('image'))
