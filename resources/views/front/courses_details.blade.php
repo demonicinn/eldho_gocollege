@@ -76,12 +76,15 @@
 
 
                     @if($course->program)
+                    @php
+                    $countProgram = count($course->program);
+                    @endphp
                     <!-- Why Choose Section -->
                     <div class="mb-4 mb-md-5">
                         <h3 class="title-font fw-700 mb-4 fs-4">Why Choose This Program?</h3>
                         <div class="row g-3 g-md-4">
-                            @foreach($course->program as $program)
-                            <div class="col-12 col-md-6">
+                            @foreach($course->program as $i => $program)
+                            <div class="col-12 {{ $i+1 == $countProgram ? '' : 'col-md-6' }}">
                                 <div class="about__info">
                                     <div class="icon bg__1 radius12">
                                         <i class="fas fa-{{ $program->icon }} primary-color fs-5"></i>
@@ -194,7 +197,8 @@
                     @if($course->data)
                     <div class="item bor radius12 p-3 p-md-4">
                         <h3 class="title-font fw-700 fs-5">Program Information</h3>
-                        <ul class="list-unstyled">
+                        {{--
+                        <!-- <ul class="list-unstyled">
                             @foreach($course->data as $data)
                             @php
                             $dValue = str_replace(';', '<br/>', $data->value);
@@ -203,10 +207,10 @@
                                 <p class="text-font mb-0 d-flex justify-content-between"><strong>{{ $data->title }}:</strong> <span>{!! $dValue !!}</span></p>
                             </li>
                             @endforeach
-                        </ul>
+                        </ul> -->
+                        --}}
 
-                        {{--
-                        <!-- <table class="details table table-responsive snippets-table">
+                        <table class="details table table-responsive snippets-table">
                             <tbody>
                                 @foreach($course->data as $data)
                                 @php
@@ -218,8 +222,7 @@
                                 </tr>
                                 @endforeach
                             </tbody>
-                        </table> -->
-                        --}}
+                        </table>
                         <a href="#" class="btn-one text-decoration-none w-100 text-center">Compare Colleges & Get Info</a>
                     </div>
                     @endif
