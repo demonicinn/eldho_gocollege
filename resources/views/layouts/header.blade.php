@@ -5,7 +5,7 @@
     <div class="header__container">
         <div class="header__main">
             <a href="{{ route('home') }}" class="logo">
-                <img src="{{ asset('assets/images/logo/logo.svg') }}" alt="logo">
+                <img src="{{ asset('logo.png') }}" alt="logo">
             </a>
             <div class="main-menu">
                 <nav>
@@ -51,7 +51,7 @@
 <div class="sidebar-area offcanvas offcanvas-end" id="menubar">
     <div class="offcanvas-header">
         <a href="index.html" class="logo">
-            <img src="{{ asset('assets/images/logo/logo-light.svg') }}" alt="logo">
+            <img src="{{ asset('logo.png') }}" alt="logo">
         </a>
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas"><i
                 class="fa-regular fa-xmark"></i></button>

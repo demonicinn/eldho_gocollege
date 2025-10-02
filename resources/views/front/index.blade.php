@@ -74,9 +74,8 @@
                     <div class="about__image">
                         <img class="about-dots" src="assets/images/shape/about-dots.png"
                             alt="shape">
-                        <img class="about-circle" src="assets/images/shape/about-circle.png" alt="shape">
-                        <img src="assets/images/about/about-image1.png" alt="image">
-                        <img class="sm-image" src="assets/images/about/about-image2.png" alt="image">
+                        <img src="assets/images/about/about-image1.webp" alt="image">
+                        <!-- <img class="sm-image" src="assets/images/about/about-image2.png" alt="image"> -->
                         <div class="count-info">
                             <h5 class="primary-color fs-28"><span class="count primary-color">5</span>+</h5>
                             <span class="fs-14">Years Experience</span>
