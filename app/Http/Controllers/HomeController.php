@@ -59,6 +59,13 @@ class HomeController extends Controller
     }
 
 
+    //
+    public function financialAid()
+    {
+        return view('front.financialAid');
+    }
+
+
 
 
 }

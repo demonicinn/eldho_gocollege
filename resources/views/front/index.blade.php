@@ -10,25 +10,25 @@
             {{--<h5 class="mb-10 primary-color text-capitalize wow fadeInUp" data-wow-delay="00ms"
                 data-wow-duration="1500ms">ONLINE LARNING COURSE</h5>--}}
             <h1 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                Get Into College with 100% OSAP Funding
+                Simplifying College Admissions With Full Funding Options
             </h1>
-            <p class="mt-20 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">Navigate OSAP applications, secure maximum financial aid, and get admitted to accredited career colleges in Ontario.</p>
-            <a href="course.html" class="btn-one mt-50">Explore Courses<i class="fa-light fa-arrow-right-long"></i></a>
+            <p class="mt-20 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">Get free admission guidance to top Ontario career colleges and secure the best financial aid options.</p>
+            <a href="course.html" class="btn-one mt-50">Check My Eligibility<i class="fa-light fa-arrow-right-long"></i></a>
         </div>
     </div>
     <div class="banner__hero">
         <div class="banner__info" data-depth="0.03">
             <img src="assets/images/icon/banner-hero-icon.png" alt="icon">
             <div>
-                <h5 class="fs-28"><span class="count secondary-color">6,570</span>+</h5>
-                <span class="fs-14">Active Student</span>
+                <h5 class="fs-28"><span class="count secondary-color">100</span>+</h5>
+                <span class="fs-14">Admissions</span>
             </div>
         </div>
         <div class="banner__info info2" data-depth="0.03">
             <img src="assets/images/icon/banner-hero-icon2.png" alt="icon">
             <div>
-                <h5 class="fs-28"><span class="count secondary-color">100</span>+</h5>
-                <span class="fs-14">Online Courses</span>
+                <h5 class="fs-28"><span class="count secondary-color">25</span>+</h5>
+                <span class="fs-14">Courses</span>
             </div>
         </div>
         <img src="assets/images/banner/hero.png" alt="image">

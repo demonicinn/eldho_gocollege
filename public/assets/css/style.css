@@ -8457,6 +8457,56 @@ img {
 
 
 
+/*financial aid*/
+.classic-tabs {
+    border-bottom: 2px solid var(--border);
+    margin-bottom: 40px;
+}
+.classic-tabs .nav-link {
+    color: var(--paragraph);
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid transparent;
+    padding: 12px 20px;
+    font-weight: 500;
+    transition: var(--transition);
+}
+.classic-tabs .nav-link:hover {
+    color: var(--heading-color);
+    border-bottom-color: var(--paragraph);
+}
+.classic-tabs .nav-link.active {
+    color: var(--primary-color);
+    background: transparent;
+    border-bottom-color: var(--primary-color);
+}
+.info-box {
+    background: var(--sub-bg);
+    border-left: 4px solid var(--primary-color);
+    padding: 15px 20px;
+    margin: 20px 0;
+}
+.deadline-box {
+    background: #fff3cd;
+    border-left: 4px solid #ffc107;
+    padding: 15px 20px;
+    margin: 20px 0;
+}
+.steps-box {
+    border: 1px solid var(--border);
+    padding: 20px;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+.contact-sidebar {
+    border: 2px solid var(--primary-color);
+    padding: 20px;
+    border-radius: 8px;
+}
+#financialAidTabContent i.fa-solid.fa-3x {
+    color: var(--primary-color);
+}
+
 
 
 
