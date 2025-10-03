@@ -39,6 +39,7 @@ Route::controller(HomeController::class)->group(function () {
     Route::get('/courses', 'courses')->name('courses');
     Route::get('/course/{course}/{slug}', 'coursesDetails')->name('courses.details');
     Route::get('/financial-aid', 'financialAid')->name('financialAid');
+    Route::get('/schedule-a-call', 'scheduleCall')->name('scheduleCall');
 });
 
 

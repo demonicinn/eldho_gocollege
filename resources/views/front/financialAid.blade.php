@@ -27,12 +27,12 @@
             <div class="col-md-4 mb-20">
                 <i class="fa-solid fa-phone fa-2x mb-10 text-white"></i>
                 <h5 class="text-white">Call Us</h5>
-                <a href="tel:905-671-9999" class="text-white">905-671-9999</a>
+                <a href="tel:437-422-8353" class="text-white">437-422-8353</a>
             </div>
             <div class="col-md-4 mb-20">
                 <i class="fa-solid fa-envelope fa-2x mb-10 text-white"></i>
                 <h5 class="text-white">Email Us</h5>
-                <a href="mailto:info@cimtcollege.com" class="text-white">info@cimtcollege.com</a>
+                <a href="mailto:info@gocollege.ca" class="text-white">info@gocollege.ca</a>
             </div>
             <div class="col-md-4 mb-20">
                 <i class="fa-solid fa-clock fa-2x mb-10 text-white"></i>
@@ -108,7 +108,7 @@
                 <div class="row">
                     <div class="col-lg-8 mb-30">
                         <h2 class="mb-20">College Bursaries: $50 - $1,500</h2>
-                        <p>CIMT College offers generous bursaries for eligible students. Bursaries are <strong>grants you don't repay</strong> - they reduce your tuition cost directly.</p>
+                        <p>GoCollege offers generous bursaries for eligible students. Bursaries are <strong>grants you don't repay</strong> - they reduce your tuition cost directly.</p>
                         
                         <div class="info-box">
                             <h5 class="mb-10"><i class="fa-solid fa-circle-info mr-10"></i> Important Information</h5>
@@ -155,7 +155,7 @@
                         <div class="steps-box mt-30">
                             <h4 class="mb-20">How to Apply:</h4>
                             <ol class="pl-20">
-                                <li class="mb-15"><strong>Book a FREE Campus Tour:</strong> Call 905-671-9999 or email info@cimtcollege.com</li>
+                                <li class="mb-15"><strong>Book a FREE Campus Tour:</strong> Call 437-422-8353 or email info@gocollege.ca</li>
                                 <li class="mb-15"><strong>Meet with Admissions Advisor:</strong> Choose your program and career path</li>
                                 <li class="mb-15"><strong>Bring Required Documents:</strong> Transcripts, work experience letters, proof of income/status</li>
                                 <li class="mb-15"><strong>Assessment:</strong> Your eligibility is assessed by the Admissions Advisor and/or Manager</li>
@@ -174,8 +174,7 @@
                         <div class="contact-sidebar shadow">
                             <h5 class="mb-20">Quick Contact</h5>
                             <p class="mb-25">Schedule your FREE consultation to discuss bursary eligibility</p>
-                            <a href="tel:905-671-9999" class="btn-one w-100 text-center mb-15">Call Now</a>
-                            <a href="mailto:info@cimtcollege.com" class="btn-one w-100 text-center">Email Us</a>
+                            <a href="{{ route('scheduleCall') }}" class="btn-one w-100 text-center mb-15">Schedule A Call</a>
                         </div>
                     </div>
                 </div>
@@ -225,7 +224,7 @@
                         <div class="steps-box mt-30">
                             <h4 class="mb-20">Application Process:</h4>
                             <ol class="pl-20">
-                                <li class="mb-15"><strong>Contact CIMT College:</strong> Call 905-671-9999 or email info@cimtcollege.com</li>
+                                <li class="mb-15"><strong>Contact GoCollege:</strong> Call 437-422-8353 or email info@gocollege.ca</li>
                                 <li class="mb-15"><strong>Career Guidance Session:</strong> Meet with Admissions Advisor to choose your program</li>
                                 <li class="mb-15"><strong>Intake Appointment:</strong> We'll schedule you to meet with an Abilities to Work coordinator</li>
                                 <li class="mb-15"><strong>Assessment:</strong> Your disability is assessed and funding determined (usually within days)</li>
@@ -245,8 +244,8 @@
                             <h5 class="mb-20">Need Help?</h5>
                             <h6 class="mb-15">Education Counselor</h6>
                             <p class="mb-25">Call for FREE consultation about Abilities to Work funding</p>
-                            <p class="mb-10"><i class="fa-solid fa-phone mr-10 primary-color"></i> <a href="tel:905-671-9999" class="primary-hover fw-600">905-671-9999</a></p>
-                            <p class="mb-0"><i class="fa-solid fa-envelope mr-10 primary-color"></i> <a href="mailto:info@cimtcollege.com" class="primary-hover">info@cimtcollege.com</a></p>
+                            <p class="mb-10"><i class="fa-solid fa-phone mr-10 primary-color"></i> <a href="tel:437-422-8353" class="primary-hover fw-600">437-422-8353</a></p>
+                            <p class="mb-0"><i class="fa-solid fa-envelope mr-10 primary-color"></i> <a href="mailto:info@gocollege.ca" class="primary-hover">info@gocollege.ca</a></p>
                         </div>
                     </div>
                 </div>
@@ -291,7 +290,7 @@
                         <div class="steps-box mt-30">
                             <h4 class="mb-20">Application Steps:</h4>
                             <ol class="pl-20">
-                                <li class="mb-15"><strong>Meet with CIMT Admissions Advisor:</strong> Choose your program (Call 905-671-9999)</li>
+                                <li class="mb-15"><strong>Meet with GoCollege Admissions Advisor:</strong> Choose your program (Call 437-422-8353)</li>
                                 <li class="mb-15"><strong>Connect with TCET Counsellor:</strong> We'll connect you within one week</li>
                                 <li class="mb-15"><strong>Submit Loan Application:</strong> Work with TCET to complete application</li>
                                 <li class="mb-15"><strong>Documentation Required:</strong>
@@ -314,7 +313,7 @@
 
                         <div class="info-box mt-20">
                             <h5 class="mb-10">More Information</h5>
-                            <p class="mb-0">Visit <a href="http://www.tcet.com/FCRloans" target="_blank" class="primary-hover">www.tcet.com/FCRloans</a> or call CIMT College at 905-671-9999</p>
+                            <p class="mb-0">Visit <a href="http://www.tcet.com/FCRloans" target="_blank" class="primary-hover">www.tcet.com/FCRloans</a> or call GoCollege at 437-422-8353</p>
                         </div>
 
                     </div>
@@ -349,7 +348,7 @@
                 <div class="row">
                     <div class="col-lg-8 mb-30">
                         <h2 class="mb-20">Better Jobs Ontario</h2>
-                        <p>Ontario government cost-sharing <strong>grant up to $28,000</strong> for laid-off workers. Plus, receive a <strong>FREE LAPTOP</strong> when you enroll at CIMT College!</p>
+                        <p>Ontario government cost-sharing <strong>grant up to $28,000</strong> for laid-off workers. Plus, receive a <strong>FREE LAPTOP</strong> when you enroll at College!</p>
                         
                         <div class="info-box">
                             <h5 class="mb-10"><i class="fa-solid fa-money-bill-wave mr-10"></i> Funding Details</h5>
@@ -417,7 +416,7 @@
                             <ol class="pl-20">
                                 <li class="mb-15"><strong>Confirm Eligibility:</strong> Laid off after 2004 and meet program requirements</li>
                                 <li class="mb-15"><strong>Contact Service Canada or Employment Ontario:</strong> Start your application with them</li>
-                                <li class="mb-15"><strong>Career Guidance at CIMT:</strong> Call 905-671-9999 or email admissions@cimtcollege.com</li>
+                                <li class="mb-15"><strong>Career Guidance at GoCollege:</strong> Call 437-422-8353 or email info@gocollege.ca</li>
                                 <li class="mb-15"><strong>Choose Your Program:</strong> Work with our advisors to select the right training</li>
                                 <li class="mb-15"><strong>Submit to MCU:</strong> Complete Better Jobs Ontario application through Service Canada</li>
                                 <li><strong>Approval & Enrollment:</strong> Once approved, enroll and claim your FREE laptop</li>
@@ -431,17 +430,11 @@
                     </div>
                     <div class="col-lg-4 mb-30">
                         <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=400&h=500&fit=crop" alt="Training" class="radius12 w-100 mb-20 bor">
-                        
-                        <div class="contact-sidebar sub-bg">
-                            <h5 class="mb-15">🎁 Bonus Offer</h5>
-                            <p class="fs-16 mb-15"><strong>FREE LAPTOP</strong> when you enroll in any eligible program through Better Jobs Ontario!</p>
-                            <p class="sm-font mb-0">Contact us to learn more about this exclusive offer.</p>
-                        </div>
 
                         <div class="contact-sidebar mt-20">
                             <h5 class="mb-15">Get Started</h5>
-                            <a href="mailto:admissions@cimtcollege.com" class="btn-one w-100 text-center mb-10">Email Admissions</a>
-                            <a href="tel:905-671-9999" class="btn-one w-100 text-center">Call 905-671-9999</a>
+                            <p class="mb-25">Schedule your FREE consultation to discuss bursary eligibility</p>
+                            <a href="{{ route('scheduleCall') }}" class="btn-one w-100 text-center mb-15">Schedule A Call</a>
                         </div>
                     </div>
                 </div>
@@ -481,7 +474,7 @@
                             <ol class="pl-20">
                                 <li class="mb-15"><strong>Contact Service Canada or WSIB:</strong> Discuss your eligibility for Second Career funding</li>
                                 <li class="mb-15"><strong>Career Assessment:</strong> Work with Employment Ontario to develop your plan</li>
-                                <li class="mb-15"><strong>Contact CIMT College:</strong> Call 905-671-9999 for program information</li>
+                                <li class="mb-15"><strong>Contact GoCollege:</strong> Call 437-422-8353 for program information</li>
                                 <li class="mb-15"><strong>Program Selection:</strong> Choose a training program that matches your career goals</li>
                                 <li class="mb-15"><strong>Submit Application:</strong> Through Service Canada or WSIB with program details</li>
                                 <li><strong>Approval & Start:</strong> Begin training once funding is approved</li>
@@ -494,14 +487,14 @@
 
                     </div>
                     <div class="col-lg-4 mb-30">
-                        <div class="bor p-30 radius8 sub-bg shadow">
+                        <div class="bor p-3 radius8 sub-bg shadow">
                             <h5 class="mb-20">Need Help?</h5>
                             <p class="mb-20">Our team can guide you through the Second Career application process</p>
-                            <p class="mb-10"><i class="fa-solid fa-phone mr-10 primary-color"></i> <a href="tel:905-671-9999" class="primary-hover fw-600">905-671-9999</a></p>
-                            <p class="mb-0"><i class="fa-solid fa-envelope mr-10 primary-color"></i> <a href="mailto:info@cimtcollege.com" class="primary-hover">info@cimtcollege.com</a></p>
+                            <p class="mb-10"><i class="fa-solid fa-phone mr-10 primary-color"></i> <a href="tel:437-422-8353" class="primary-hover fw-600">437-422-8353</a></p>
+                            <p class="mb-0"><i class="fa-solid fa-envelope mr-10 primary-color"></i> <a href="mailto:info@gocollege.ca" class="primary-hover">info@gocollege.ca</a></p>
                         </div>
 
-                        <div class="bor p-30 radius8 mt-20 shadow">
+                        <div class="bor p-3 radius8 mt-20 shadow">
                             <h5 class="mb-20">External Resources</h5>
                             <p class="mb-15">
                                 <a href="https://www.ontario.ca/page/second-career" target="_blank" class="primary-hover"><i class="fa-solid fa-external-link mr-10"></i>Ontario Second Career Program</a>
@@ -586,7 +579,7 @@
                             <ul class="mb-0 pl-20">
                                 <li>Use OSAP's Aid Estimator to see how much you might receive</li>
                                 <li>You can decline the loan portion and keep only grants</li>
-                                <li>Contact CIMT financial aid office if you need help: 905-671-9999 ext 10101</li>
+                                <li>Contact GoCollege financial aid office if you need help: 437-422-8353</li>
                             </ul>
                         </div>
 
@@ -594,18 +587,18 @@
                     <div class="col-lg-4 mb-30">
                         <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&h=500&fit=crop" alt="OSAP" class="radius12 w-100 mb-20 bor">
                         
-                        <div class="bor p-20 radius8">
+                        <div class="bor p-3 radius8">
                             <h5 class="mb-15">OSAP Resources</h5>
                             <p class="sm-font mb-10"><a href="https://www.ontario.ca/page/osap-ontario-student-assistance-program" target="_blank" class="primary-hover"><i class="fa-solid fa-external-link mr-10"></i>Apply for OSAP</a></p>
                             <p class="sm-font mb-10"><a href="https://www.ontario.ca/page/osap-ontario-student-assistance-program#section-5" target="_blank" class="primary-hover"><i class="fa-solid fa-calculator mr-10"></i>OSAP Aid Estimator</a></p>
                             <p class="sm-font mb-0"><a href="https://www.csnpe-nslsc.canada.ca/en/home" target="_blank" class="primary-hover"><i class="fa-solid fa-building-columns mr-10"></i>National Student Loans Service Centre</a></p>
                         </div>
 
-                        <div class="bor p-20 radius8 mt-20 sub-bg">
+                        <div class="bor p-3 radius8 mt-20 sub-bg">
                             <h5 class="mb-15">Need Help with OSAP?</h5>
                             <p class="sm-font mb-10">Contact our Financial Aid Office</p>
-                            <p class="sm-font mb-0"><i class="fa-solid fa-phone mr-10"></i> 905-671-9999 ext 10101</p>
-                            <p class="sm-font mb-0"><i class="fa-solid fa-envelope mr-10"></i> info@cimtcollege.com</p>
+                            <p class="sm-font mb-0"><i class="fa-solid fa-phone mr-10"></i> 437-422-8353</p>
+                            <p class="sm-font mb-0"><i class="fa-solid fa-envelope mr-10"></i> info@gocollege.ca</p>
                         </div>
                     </div>
                 </div>
@@ -628,7 +621,7 @@
                             <p class="text-center sm-font"><strong>Interest-free</strong> plans with no credit check. Payments throughout your program.</p>
                             <p class="text-center sm-font"><strong>Extended plans</strong> available with credit check.</p>
                             <div class="text-center mt-20">
-                                <p class="sm-font mb-0"><strong>Contact:</strong> 905-671-9999 ext 10101</p>
+                                <p class="sm-font mb-0"><strong>Contact:</strong> 437-422-8353</p>
                             </div>
                         </div>
                     </div>
@@ -698,7 +691,7 @@
                             <p class="text-center sm-font">Official tax receipts issued at year-end for tuition tax credits.</p>
                             <p class="text-center sm-font"><strong>Request:</strong> Contact admin office</p>
                             <div class="text-center mt-20">
-                                <p class="sm-font mb-0">905-671-9999 ext 10101</p>
+                                <p class="sm-font mb-0">437-422-8353</p>
                             </div>
                         </div>
                     </div>
@@ -733,18 +726,17 @@
                     
                     <div class="mb-25">
                         <h6 class="mb-10">Phone (General Inquiries):</h6>
-                        <p class="mb-0 fs-18"><a href="tel:905-671-9999" class="primary-hover fw-600">905-671-9999</a></p>
+                        <p class="mb-0 fs-18"><a href="tel:437-422-8353" class="primary-hover fw-600">437-422-8353</a></p>
                     </div>
 
                     <div class="mb-25">
                         <h6 class="mb-10">Phone (Financial Aid Office):</h6>
-                        <p class="mb-0 fs-18"><a href="tel:905-671-9999" class="primary-hover fw-600">905-671-9999 ext 10101</a></p>
+                        <p class="mb-0 fs-18"><a href="tel:437-422-8353" class="primary-hover fw-600">437-422-8353</a></p>
                     </div>
                     
                     <div class="mb-25">
                         <h6 class="mb-10">Email:</h6>
-                        <p class="mb-5"><a href="mailto:info@cimtcollege.com" class="primary-hover">info@cimtcollege.com</a></p>
-                        <p class="mb-0"><a href="mailto:admissions@cimtcollege.com" class="primary-hover">admissions@cimtcollege.com</a></p>
+                        <p class="mb-5"><a href="mailto:info@gocollege.ca" class="primary-hover">info@gocollege.ca</a></p>
                     </div>
                     
                     <div class="mb-30">
@@ -753,7 +745,7 @@
                         <p class="mb-0 sm-font">(Appointments recommended)</p>
                     </div>
 
-                    <a href="tel:905-671-9999" class="btn-one w-100 text-center">Schedule FREE Consultation</a>
+                    <a href="{{ route('scheduleCall') }}" class="btn-one w-100 text-center">Schedule FREE Consultation</a>
                 </div>
             </div>
         </div>
@@ -767,8 +759,7 @@
             <div class="col-12">
                 <h2 class="text-white mb-15">Ready to Start Your Journey?</h2>
                 <p class="text-white mb-30">Don't let finances hold you back. We'll help you find the right funding solution.</p>
-                <a href="tel:905-671-9999" class="btn-one-light mr-15 mb-10">Call 905-671-9999</a>
-                <a href="mailto:info@cimtcollege.com" class="btn-one-light mb-10">Email Us</a>
+                <a href="{{ route('scheduleCall') }}" class="btn-one-light mb-10">Schedule A Call</a>
             </div>
         </div>
     </div>

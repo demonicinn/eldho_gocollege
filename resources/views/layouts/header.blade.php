@@ -32,7 +32,7 @@
                     <button><i class="fa-regular fa-magnifying-glass"></i></button>
                 </div> -->
                 <div class="menu-btns d-none d-lg-flex">
-                    <a class="active" href="#0">Get Started</a>
+                    <a class="active" href="{{ route('scheduleCall') }}">Get Started</a>
                     <!-- <a href="#0">Sign Up</a> -->
                 </div>
             </div>

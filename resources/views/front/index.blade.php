@@ -10,10 +10,11 @@
             {{--<h5 class="mb-10 primary-color text-capitalize wow fadeInUp" data-wow-delay="00ms"
                 data-wow-duration="1500ms">ONLINE LARNING COURSE</h5>--}}
             <h1 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                Simplifying College Admissions With Full Funding Options
+                <!-- Simplifying College Admissions With Full Funding Options -->
+                Simplifying College Admissions & Funding Options
             </h1>
             <p class="mt-20 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">Get free admission guidance to top Ontario career colleges and secure the best financial aid options.</p>
-            <a href="course.html" class="btn-one mt-50">Check My Eligibility<i class="fa-light fa-arrow-right-long"></i></a>
+            <a href="{{ route('scheduleCall') }}" class="btn-one mt-50">Check My Eligibility<i class="fa-light fa-arrow-right-long"></i></a>
         </div>
     </div>
     <div class="banner__hero">
@@ -113,7 +114,7 @@
                             </div>
                         </div>
                     </div>
-                    <a href="about.html" class="btn-one mt-50 wow fadeInDown" data-wow-delay="200ms"
+                    <a href="{{ route('about') }}" class="btn-one mt-50 wow fadeInDown" data-wow-delay="200ms"
                         data-wow-duration="1500ms">About Us<i class="fa-light fa-arrow-right-long"></i></a>
                 </div>
             </div>
@@ -333,7 +334,7 @@
     <div class="container">
         <div class="trial__wrp">
             <h2 class="text-white wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Finished scrolling? Lets Calculate your Funding</h2>
-            <a href="#0" class="btn-one-light wow fadeInUp" data-wow-delay="200ms"
+            <a href="{{ route('scheduleCall') }}" class="btn-one-light wow fadeInUp" data-wow-delay="200ms"
                 data-wow-duration="1500ms">Calculate Now<i class="fa-light fa-arrow-right-long"></i></a>
         </div>
     </div>

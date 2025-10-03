@@ -4,11 +4,9 @@
         <div class="footer__wrp pt-100 pb-100">
             <div class="footer__item footer-about wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                 <a href="index.html" class="logo mb-30">
-                    <img src="{{ asset('assets/images/logo/logo.svg') }}" alt="logo">
+                    <img src="{{ asset('logo.png') }}" alt="logo">
                 </a>
-                <p>Phasellus ultricies aliquam volutpat
-                    ullamcorper laoreet neque, a lacinia
-                    curabitur lacinia mollis</p>
+                <p>Your trusted partner in simplifying college admissions & funding options</p>
                 <ul class="mt-25">
                     <li>
                         <svg class="me-1" width="16" height="20" viewBox="0 0 16 20" fill="none"
@@ -20,7 +18,7 @@
                                 d="M7.99972 3.47754C5.84283 3.47754 4.08838 5.23243 4.08838 7.38888C4.08838 9.54534 5.84283 11.3002 7.99972 11.3002C10.1566 11.3002 11.9111 9.54534 11.9111 7.38888C11.9111 5.23243 10.1566 3.47754 7.99972 3.47754ZM7.99972 10.431C6.32262 10.431 4.95757 9.06641 4.95757 7.38888C4.95757 5.71135 6.32262 4.34673 7.99972 4.34673C9.67682 4.34673 11.0419 5.71135 11.0419 7.38888C11.0419 9.06641 9.67682 10.431 7.99972 10.431Z"
                                 fill="#2EB97E" />
                         </svg>
-                        <a href="#0" class="p-0">6391 Elgin St. Celina, USA</a>
+                        <a href="#0" class="p-0">6 Urbane Blvd, Kitchener <br> Ontario N2E0J4.</a>
                     </li>
                     <li>
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
@@ -29,50 +27,29 @@
                                 d="M18.7719 14.1213C18.7388 14.0938 14.9913 11.4275 13.9794 11.5906C13.4913 11.6769 13.2125 12.01 12.6531 12.6762C12.4985 12.8617 12.3403 13.0443 12.1788 13.2238C11.8252 13.1086 11.4804 12.9682 11.1469 12.8038C9.42533 11.9656 8.03437 10.5747 7.19625 8.85312C7.03179 8.51964 6.89143 8.1748 6.77625 7.82125C6.96 7.65312 7.2175 7.43625 7.3275 7.34375C7.99062 6.7875 8.32312 6.50812 8.40938 6.01937C8.58625 5.0075 5.90625 1.26125 5.87875 1.2275C5.7567 1.05441 5.59775 0.910578 5.41336 0.806386C5.22897 0.702193 5.02374 0.640241 4.8125 0.625C3.72625 0.625 0.625 4.6475 0.625 5.32562C0.625 5.365 0.681875 9.3675 5.6175 14.3881C10.6325 19.3181 14.635 19.375 14.6744 19.375C15.3519 19.375 19.375 16.2737 19.375 15.1875C19.3596 14.9762 19.2975 14.771 19.1932 14.5866C19.0889 14.4022 18.945 14.2433 18.7719 14.1213ZM14.605 18.1213C14.0625 18.075 10.7 17.6319 6.5 13.5063C2.35437 9.28563 1.9225 5.9175 1.87937 5.39563C2.69861 4.10978 3.68799 2.94064 4.82062 1.92C4.84562 1.945 4.87875 1.9825 4.92125 2.03125C5.78989 3.21702 6.53817 4.48642 7.155 5.82062C6.95441 6.02242 6.7424 6.21253 6.52 6.39C6.17512 6.65278 5.85843 6.95063 5.575 7.27875C5.52704 7.34604 5.4929 7.42217 5.47456 7.50274C5.45621 7.5833 5.45403 7.66671 5.46812 7.74813C5.60039 8.32108 5.80297 8.87549 6.07125 9.39875C7.03243 11.3725 8.62735 12.9672 10.6012 13.9281C11.1244 14.1968 11.6788 14.3996 12.2519 14.5319C12.3333 14.5463 12.4168 14.5443 12.4974 14.5259C12.578 14.5075 12.6541 14.4732 12.7213 14.425C13.0505 14.1404 13.3494 13.8225 13.6131 13.4762C13.8094 13.2425 14.0712 12.9306 14.1706 12.8425C15.5082 13.4587 16.7805 14.2079 17.9681 15.0787C18.02 15.1225 18.0569 15.1562 18.0812 15.1781C17.0606 16.3111 15.8912 17.3007 14.605 18.12V18.1213ZM14.375 9.375H15.625C15.6235 8.04937 15.0962 6.77847 14.1589 5.84111C13.2215 4.90375 11.9506 4.37649 10.625 4.375V5.625C11.6193 5.62599 12.5725 6.0214 13.2756 6.72445C13.9786 7.42749 14.374 8.38074 14.375 9.375Z"
                                 fill="#2EB97E" />
                         </svg>
-                        <a href="tel:+2086660112" class="p-0">+208-666-0112</a>
+                        <a href="tel:437-422-8353" class="p-0">437-422-8353</a>
                     </li>
                 </ul>
             </div>
             <div class="footer__item item-sm wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                 <h3 class="footer-title">Quick Link</h3>
                 <ul>
-                    <li><a href="about.html"><i class="fa-regular fa-angles-right me-1"></i>About Learnit</a></li>
-                    <li><a href="course.html"><i class="fa-regular fa-angles-right me-1"></i> Our Courses</a>
+                    <li><a href="{{ route('about') }}"><i class="fa-regular fa-angles-right me-1"></i>About</a></li>
+                    <li><a href="{{ route('courses') }}"><i class="fa-regular fa-angles-right me-1"></i> Our Courses</a>
                     </li>
-                    <li><a href="team.html"><i class="fa-regular fa-angles-right me-1"></i> Instructor</a>
+                    <li><a href="{{ route('financialAid') }}"><i class="fa-regular fa-angles-right me-1"></i> Financial Aid</a>
                     </li>
-                    <li><a href="team-details.html"><i class="fa-regular fa-angles-right me-1"></i> Instructor
-                            Details</a>
                     </li>
-                    <li><a href="contact.html"><i class="fa-regular fa-angles-right me-1"></i> Contact Us</a></li>
+                    <li><a href="{{ route('contact') }}"><i class="fa-regular fa-angles-right me-1"></i> Contact Us</a></li>
                 </ul>
             </div>
             <div class="footer__item item-sm wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
                 <h3 class="footer-title">Courses</h3>
                 <ul>
-                    <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i> Computer
-                            Science</a></li>
-                    <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i>
-                            Development</a>
-                    </li>
-                    <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i> Arts &
-                            Design</a>
-                    </li>
-                    <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i> Sale
-                            Marketing</a></li>
-                    <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i> Data
-                            Science</a></li>
+                    @foreach(categoriesArray() as $iCat => $cat)
+                    <li><a href="{{ route('courses') }}?filter={{ $iCat }}"><i class="fa-regular fa-angles-right me-1"></i> {{ $cat }}</a></li>
+                    @endforeach
                 </ul>
-            </div>
-            <div class="footer__item footer-subscribe wow fadeInUp" data-wow-delay="600ms"
-                data-wow-duration="1500ms">
-                <h3 class="footer-title">Newsletters</h3>
-                <p class="mb-20">Sing Up For News & Get 30% Off
-                    Your Next Course.</p>
-                <div class="footer-newsletter">
-                    <input type="text" placeholder="Your email address">
-                    <button>Subscribe Now</button>
-                </div>
             </div>
         </div>
     </div>
@@ -80,8 +57,8 @@
         <div class="container">
             <div
                 class="d-flex gap-1 flex-wrap align-items-center justify-content-md-between justify-content-center">
-                <p class="wow fadeInDown" data-wow-delay="00ms" data-wow-duration="1500ms">&copy; All Copyright 2024
-                    by <a href="#0" class="primary-color">Learnit</a></p>
+                <p class="wow fadeInDown" data-wow-delay="00ms" data-wow-duration="1500ms">&copy; All Copyright 2025
+                    by <a href="#0" class="primary-color">GoCollege</a></p>
                 <ul class="d-flex align-items-center gap-4 wow fadeInDown" data-wow-delay="200ms"
                     data-wow-duration="1500ms">
                     <li><a href="#0">Terms & Condition</a></li>

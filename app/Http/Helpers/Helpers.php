@@ -32,7 +32,7 @@
             'accounting' => 'Accounting',
             'business' => 'Business',
             'healthcare' => 'Healthcare',
-            'it' => 'IT'
+            'it' => 'Information Technology'
         ];
     }
 

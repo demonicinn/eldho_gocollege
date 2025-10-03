@@ -7614,7 +7614,7 @@ img {
   width: 100%;
 }
 .footer__item.item-sm, .event-details__item-right .item .item-sm.share, .courses-details__item-right .item .item-sm.share, .item-sm.team-details__social {
-  max-width: 175px;
+  max-width: 200px;
   width: 100%;
 }
 .footer__item.newsletter-six, .event-details__item-right .item .newsletter-six.share, .courses-details__item-right .item .newsletter-six.share, .newsletter-six.team-details__social {

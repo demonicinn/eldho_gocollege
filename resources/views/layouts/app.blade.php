@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/swiper-bundle.min.css') }}">
     <!-- Magnigic popup css -->
     <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.css') }}">
-     <link rel="stylesheet" href="{{ asset('assets/css/nice-select.css') }}">
+     <!-- <link rel="stylesheet" href="{{ asset('assets/css/nice-select.css') }}"> -->
     <!-- Style css -->
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 </head>
@@ -58,7 +58,7 @@
     <!-- Magnific popup min Js -->
     <script src="{{ asset('assets/js/magnific-popup.min.js') }}"></script>
     <!-- Nice select min Js -->
-    <script src="{{ asset('assets/js/nice-select.min.js') }}"></script>
+    <!-- <script src="{{ asset('assets/js/nice-select.min.js') }}"></script> -->
     <!-- Parallax Js -->
     <script src="{{ asset('assets/js/parallax.js') }}"></script>
     <!-- Waypoints Js -->

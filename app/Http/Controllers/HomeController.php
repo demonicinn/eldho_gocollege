@@ -66,6 +66,13 @@ class HomeController extends Controller
     }
 
 
+    //
+    public function scheduleCall()
+    {
+        return view('front.scheduleCall');
+    }
+
+
 
 
 }
