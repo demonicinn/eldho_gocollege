@@ -101,26 +101,36 @@
                         </h5>
                         <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Get In Touch</h2>
                     </div>
-                    <form action="#">
+                    <form action="{{ route('contact') }}" method="POST">
+                        @csrf
+
+                        @if(session('success'))
+                            <div class="alert alert-success">{{ session('success') }}</div>
+                        @endif
                         <div class="row g-4">
                             <div class="col-6">
                                 <label for="name">Name*</label>
-                                <input id="name" type="text" placeholder="Name">
+                                <input name="name" type="text" placeholder="Name" value="{{ old('name') }}">
+                                @error('name')<span>{{ $message }}</span>@enderror
                             </div>
                             <div class="col-6">
                                 <label for="number">Phone Number*</label>
-                                <input id="number" type="text" placeholder="Phone Number">
+                                <input name="phone_number" type="text" placeholder="Phone Number" value="{{ old('phone_number') }}">
+                                @error('phone_number')<span>{{ $message }}</span>@enderror
                             </div>
                         </div>
                         <div class="row g-4">
                             <div class="col-12">
                                 <label for="email">Email*</label>
-                                <input id="email" type="email" placeholder="Email">
+                                <input name="email" type="email" placeholder="Email" value="{{ old('email') }}">
+                                @error('email')<span>{{ $message }}</span>@enderror
                             </div>
                         </div>
                         <label for="message">Message</label>
-                        <textarea name="message" id="message"></textarea>
-                        <a href="#0" class="btn-one">Submit<i class="fa-light fa-arrow-right-long"></i></a>
+                        <textarea name="message">{{ old('message') }}</textarea>
+                        @error('message')<span>{{ $message }}</span><br/>@enderror
+
+                        <button type="submit" class="btn-one">Submit<i class="fa-light fa-arrow-right-long"></i></button>
                     </form>
                 </div>
             </div>

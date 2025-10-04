@@ -3,6 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\ScheduleCallMail;
+use App\Mail\ContactMail;
+
 use App\Models\Courses;
 
 class HomeController extends Controller
@@ -15,11 +19,7 @@ class HomeController extends Controller
         return view('front.index', compact('courses'));
     }
 
-    //
-    public function contact()
-    {
-        return view('front.contact');
-    }
+    
 
     //
     public function about()
@@ -65,12 +65,55 @@ class HomeController extends Controller
         return view('front.financialAid');
     }
 
+    //
+    public function contact(Request $request)
+    {
+        if($request->isMethod('POST')){
+            $validated = $request->validate([
+                'name' => 'required|string|max:255',
+                'email' => 'required|email|max:255',
+                'phone_number' => 'required|string|max:20',
+                'message' => 'required',
+            ]);
+
+            dd($validated);
+            // Send email
+            Mail::to('info@gocollege.ca')->send(new ContactMail($validated));
+
+            $request->session()->flash('success', "Thank you for contacting us! We will get back to you soon.");
+            return redirect()->route('contact');
+
+        }
+
+        return view('front.contact');
+    }
 
     //
-    public function scheduleCall()
+    public function scheduleCall(Request $request)
     {
+        if($request->isMethod('POST')){
+            $validated = $request->validate([
+                'first_name' => 'required|string|max:255',
+                'last_name' => 'required|string|max:255',
+                'email' => 'required|email|max:255',
+                'phone_number' => 'required|string|max:20',
+                'province' => 'required|string|max:255',
+                'contact_time' => 'required|string|max:255',
+                'consent' => 'required',
+            ]);
+
+            // dd($validated);
+            // Send email
+            Mail::to('info@gocollege.ca')->send(new ScheduleCallMail($validated));
+
+            $request->session()->flash('success', "Thank you for contacting us! We will get back to you soon.");
+            return redirect()->route('scheduleCall');
+
+        }
         return view('front.scheduleCall');
     }
+
+
 
 
 

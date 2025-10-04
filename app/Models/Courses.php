@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Str;
 
 class Courses extends Model
 {
@@ -32,7 +33,7 @@ class Courses extends Model
         'status',
     ];
 
-    protected $appends = ['image_path'];
+    protected $appends = ['image_path', 'short_description'];
 
 
     public function getImagePathAttribute(){
@@ -40,6 +41,12 @@ class Courses extends Model
             return asset('storage/courses/'.$this->image);
         }
         return '';
+    }
+
+
+    public function getShortDescriptionAttribute()
+    {
+        return Str::words(strip_tags($this->description), 15, '...');
     }
 
 

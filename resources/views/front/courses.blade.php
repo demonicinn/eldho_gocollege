@@ -27,7 +27,7 @@
             <div class="tags categories">
                 <a href="javascript:void(0)" data-cat="all" class="active">All</a>
                 @foreach(categoriesArray() as $iCat => $cat)
-                <a href="javascript:void(0)" data-cat="{{ $iCat }}">{{ $cat }}</a>
+                <a href="javascript:void(0)" data-cat="{{ $iCat }}" class="mb-2">{{ $cat }}</a>
                 @endforeach
             </div>
         </div>

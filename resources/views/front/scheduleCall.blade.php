@@ -30,25 +30,35 @@
                         <p class="mt-2 mt-md-3 text-font fs-6">We'll match you with colleges and funding options</p>
                     </div>
 
-                    <form id="contactForm">
+                    <form id="contactForm" action="{{ route('scheduleCall') }}" method="POST">
+                        @csrf
+
+                        @if(session('success'))
+                            <div class="alert alert-success">{{ session('success') }}</div>
+                        @endif
+
                         <!-- First Name -->
                         <div class="mb-3">
-                            <input type="text" class="form-control p-3 bor radius8 text-font" placeholder="First Name *" name="firstName" required>
+                            <input type="text" class="form-control p-3 bor radius8 text-font" placeholder="First Name *" name="first_name" value="{{ old('first_name') }}" required>
+                            @error('first_name')<span>{{ $message }}</span>@enderror
                         </div>
 
                         <!-- Last Name -->
                         <div class="mb-3">
-                            <input type="text" class="form-control p-3 bor radius8 text-font" placeholder="Last Name *" name="lastName" required>
+                            <input type="text" class="form-control p-3 bor radius8 text-font" placeholder="Last Name *" name="last_name" value="{{ old('last_name') }}" required>
+                            @error('last_name')<span>{{ $message }}</span>@enderror
                         </div>
 
                         <!-- Email -->
                         <div class="mb-3">
-                            <input type="email" class="form-control p-3 bor radius8 text-font" placeholder="Email Address *" name="email" required>
+                            <input type="email" class="form-control p-3 bor radius8 text-font" placeholder="Email Address *" name="email" value="{{ old('email') }}" required>
+                            @error('email')<span>{{ $message }}</span>@enderror
                         </div>
 
                         <!-- Phone -->
                         <div class="mb-3">
-                            <input type="tel" class="form-control p-3 bor radius8 text-font" placeholder="Phone Number *" name="phone" required>
+                            <input type="tel" class="form-control p-3 bor radius8 text-font" placeholder="Phone Number *" name="phone_number" value="{{ old('phone_number') }}" required>
+                            @error('phone_number')<span>{{ $message }}</span>@enderror
                         </div>
 
                         <!-- Province -->
@@ -69,6 +79,7 @@
                                 <option value="NU">Nunavut</option>
                                 <option value="YT">Yukon</option>
                             </select>
+                            @error('province')<span>{{ $message }}</span>@enderror
                         </div>
 
                         <!-- Contact Time -->
@@ -99,6 +110,8 @@
                                     <input type="radio" class="btn-check" name="contact_time" id="anytime" value="anytime">
                                     <label class="btn btn-outline-primary w-100 text-font fs-14 py-2" for="anytime">Anytime</label>
                                 </div>
+
+                                @error('contact_time')<span>{{ $message }}</span>@enderror
                             </div>
                         </div>
 
@@ -113,6 +126,7 @@
                                     <input type="radio" class="btn-check" name="consent" id="disagree" value="disagree">
                                     <label class="btn btn-outline-secondary w-100 text-font fs-14" for="disagree">I Disagree</label>
                                 </div>
+                                @error('consent')<span>{{ $message }}</span>@enderror
                             </div>
                             <p class="text-font fs-12 mt-2 mb-0">
                                 By selecting "I Agree", I consent to be contacted by GoCollege.ca via phone, email, or text to discuss educational opportunities. I can opt out anytime. I also agree to the <a href="#" class="primary-color">Terms</a> and <a href="#" class="primary-color">Privacy Policy</a>.
@@ -121,7 +135,7 @@
 
                         <!-- Submit Button -->
                         <div class="text-center mb-3">
-                            <button type="submit" class="btn-one w-100 text-center opacity-50" disabled id="submitBtn">
+                            <button type="submit" class="btn-one w-100 text-center">
                                 Get Expert Guidance
                             </button>
                         </div>

@@ -34,12 +34,13 @@ Route::get('/optimize', function() {
 Route::controller(HomeController::class)->group(function () {
 
     Route::get('/', 'index')->name('home');
-    Route::get('/contact-us', 'contact')->name('contact');
     Route::get('/about-us', 'about')->name('about');
     Route::get('/courses', 'courses')->name('courses');
     Route::get('/course/{course}/{slug}', 'coursesDetails')->name('courses.details');
     Route::get('/financial-aid', 'financialAid')->name('financialAid');
-    Route::get('/schedule-a-call', 'scheduleCall')->name('scheduleCall');
+
+    Route::match(['get', 'post'], '/contact-us', 'contact')->name('contact');
+    Route::match(['get', 'post'], '/schedule-a-call', 'scheduleCall')->name('scheduleCall');
 });
 
 
