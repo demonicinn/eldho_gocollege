@@ -254,7 +254,7 @@
             </div>
             <div class="col-12 col-lg-4">
                 <div class="text-center text-lg-end">
-                    <button type="button" class="btn-one-light">Schedule My Call</button>
+                    <a href="{{ route('scheduleCall') }}" class="btn-one-light">Schedule My Call</a>
                 </div>
             </div>
         </div>

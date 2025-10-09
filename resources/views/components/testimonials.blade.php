@@ -1,3 +1,7 @@
+@php
+    $testimonials = testimonials();
+@endphp
+@if(count($testimonials) > 0)
 <!-- Testimonial area start here -->
 <section class="testimonial-ten-area sub-bg-two pt-120 pb-180">
     <div class="testimonial-two__wrp">
@@ -24,7 +28,7 @@
                 <div class="swiper testimonial-two__slider shadow radius8">
                     <div class="swiper-wrapper">
                         
-                        @foreach(testimonials() as $testimonial)
+                        @foreach($testimonials as $testimonial)
                         <div class="swiper-slide">
                             <div class="testimonial-two__item">
                                 <div class="d-flex align-items-center gap-3">
@@ -57,6 +61,10 @@
     </div>
 </section>
 <!-- Testimonial area end here -->
+@endif
+
+
+
 
 
 {{--

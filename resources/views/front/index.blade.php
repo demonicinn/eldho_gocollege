@@ -66,56 +66,191 @@
 </div>
 <!-- Brand area end here -->
 
-<!-- About area start here -->
-<section class="about-area pt-120 pb-40">
+
+<!-- How it works area start here -->
+<section class="topic-area pb-120 pt-120 sub-bg">
     <div class="container">
-        <div class="row g-4">
-            <div class="col-xl-5 wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <div class="about__left-part">
-                    <div class="about__image">
-                        <img class="about-dots" src="assets/images/shape/about-dots.png"
-                            alt="shape">
-                        <img src="assets/images/about/about-image1.webp" alt="image">
-                        <!-- <img class="sm-image" src="assets/images/about/about-image2.png" alt="image"> -->
-                        <div class="count-info">
-                            <h5 class="primary-color fs-28"><span class="count primary-color">5</span>+</h5>
-                            <span class="fs-14">Years Experience</span>
-                        </div>
+        <div class="section-header mb-60 text-center">
+            <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">HOW IT WORKS</h5>
+            <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Your Path to <span>College Success</span></h2>
+            <p class="mt-20 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                Three simple steps to secure your college admission with maximum funding
+            </p>
+        </div>
+
+        <!-- Step 1: Find Your Flexible College -->
+        <div class="row g-4 align-items-center mb-60">
+            <div class="col-xl-5 col-lg-5 wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
+                <div class="d-flex justify-content-center">
+                    <div class="shadow rounded-3 p-4 bg-white" style="max-width: 350px;">
+                        <img src="https://res.cloudinary.com/dy4lolmvf/image/upload/v1759803525/Gemini_Generated_Image_bleaurbleaurblea_btvhze.png" 
+                             alt="Find Your Flexible College" 
+                             class="img-fluid rounded-2">
                     </div>
                 </div>
             </div>
+            <div class="col-xl-7 col-lg-7">
+                <div class="wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <h5 class="primary-color mb-15">STEP 1</h5>
+                    <h3 class="mb-20">Find Your Flexible College</h3>
+                    <p class="mb-0">
+                        We take the time to understand your goals and find the accredited career college with courses that offer the flexibility to fit your current schedule.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Step 2: Secure Maximum Student Aid -->
+        <div class="row g-4 align-items-center mb-60">
+            <div class="col-xl-5 col-lg-5 wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
+                <div class="d-flex justify-content-center">
+                    <div class="shadow rounded-3 p-4 bg-white" style="max-width: 350px;">
+                        <img src="https://res.cloudinary.com/dy4lolmvf/image/upload/v1759803525/Gemini_Generated_Image_ldvxwkldvxwkldvx_tsv3om.png" 
+                             alt="Secure Maximum Student Aid" 
+                             class="img-fluid rounded-2">
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-7 col-lg-7">
+                <div class="wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <h5 class="primary-color mb-15">STEP 2</h5>
+                    <h3 class="mb-20">Secure Maximum Student Aid</h3>
+                    <p class="mb-0">
+                        Our experts walk you through the entire financial aid process—from OSAP to Better Jobs Ontario—to ensure you maximize every dollar you qualify for. This is our focus.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Step 3: Your Education, Free Support -->
+        <div class="row g-4 align-items-center mb-40">
+            <div class="col-xl-5 col-lg-5 wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
+                <div class="d-flex justify-content-center">
+                    <div class="shadow rounded-3 p-4 bg-white" style="max-width: 350px;">
+                        <img src="https://res.cloudinary.com/dy4lolmvf/image/upload/v1759803525/Gemini_Generated_Image_dwx46odwx46odwx4_qmr0xx.png" 
+                             alt="Your Education, Free Support" 
+                             class="img-fluid rounded-2">
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-7 col-lg-7">
+                <div class="wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <h5 class="primary-color mb-15">STEP 3</h5>
+                    <h3 class="mb-20">Your Education, Free Support</h3>
+                    <p class="mb-0">
+                        Our services are 100% free for students. We partner only with top, accredited Canadian career colleges like Academy of Learning and CIMT College to ensure quality.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- How it works area end here -->
+
+<!-- About area start here -->
+<section class="about-area pt-120 pb-120">
+    <div class="container">
+        <div class="section-header mb-60 text-center">
+            <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">ABOUT COLLEGE PATHWAYS</h5>
+            <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Your Pathway to Higher Education - <span>Free Admission Guidance</span></h2>
+            <p class="mt-20 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                We specialize in helping Ontario students access career college education through OSAP funding and government financial aid.
+            </p>
+        </div>
+
+        <div class="row g-4 mb-60">
+            <!-- Stats Card 1 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="fanfact__item wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                    <div class="fanfact__icon bg1">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <h2><span class="count">100</span>+</h2>
+                    <span>Successful Admissions</span>
+                </div>
+            </div>
+
+            <!-- Stats Card 2 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="fanfact__item wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
+                    <div class="fanfact__icon bg2">
+                        <i class="fa-solid fa-book-open"></i>
+                    </div>
+                    <h2><span class="count">25</span>+</h2>
+                    <span>Available Courses</span>
+                </div>
+            </div>
+
+            <!-- Stats Card 3 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="fanfact__item wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <div class="fanfact__icon bg3">
+                        <i class="fa-solid fa-calendar-check"></i>
+                    </div>
+                    <h2><span class="count">5</span>+</h2>
+                    <span>Years Experience</span>
+                </div>
+            </div>
+
+            <!-- Stats Card 4 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="fanfact__item wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                    <div class="fanfact__icon bg4">
+                        <i class="fa-solid fa-dollar-sign"></i>
+                    </div>
+                    <h2><span class="count">100</span>%</h2>
+                    <span>Free Service</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content with Image -->
+        <div class="row g-4 align-items-center">
+            <div class="col-xl-5 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
+                <div class="position-relative">
+                    <img src="https://res.cloudinary.com/dy4lolmvf/image/upload/v1759423400/gocollege_srve18.webp" 
+                         alt="About College Pathways" 
+                         class="img-fluid rounded-3 shadow">
+                </div>
+            </div>
+
             <div class="col-xl-7">
-                <div class="about__right-wrp">
-                    <div class="section-header">
-                        <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">ABOUT COLLEGE PATHWAYS</h5>
-                        <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Your Pathway to Higher Education - Free Admission Guidance</h2>
-                        <p class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                            We specialize in helping Ontario students access career college education through OSAP funding and government financial aid. Our experienced counselors guide you through every step - from application to admission to securing maximum funding.
-                        </p>
-                    </div>
-                    <div class="about__right-part mt-30 wow fadeInDown" data-wow-delay="200ms"
-                        data-wow-duration="1500ms">
-                        <div class="about__info">
-                            <div class="icon bg__1">
-                                <img src="assets/images/icon/about-icon1.png" alt="icon">
-                            </div>
-                            <div>
-                                <h4>Funding Specialists</h4>
-                                <p class="mt-10">Expert guidance through government financial aid and scholarship applications.</p>
-                            </div>
+                <div class="wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <!-- Feature Card 1 -->
+                    <div class="about__info mb-30">
+                        <div class="icon bg__1">
+                            <i class="fa-solid fa-money-bill-trend-up"></i>
                         </div>
-                        <div class="about__info">
-                            <div class="icon bg__2">
-                                <img src="assets/images/icon/about-icon2.png" alt="icon">
-                            </div>
-                            <div>
-                                <h4>College Partnerships</h4>
-                                <p class="mt-10">Direct connections with multiple accredited career colleges across Ontario.</p>
-                            </div>
+                        <div>
+                            <h4>Funding Specialists</h4>
+                            <p class="mt-10">Expert guidance through OSAP, Better Jobs Ontario, and other government financial aid programs to maximize your funding.</p>
                         </div>
                     </div>
-                    <a href="{{ route('about') }}" class="btn-one mt-50 wow fadeInDown" data-wow-delay="200ms"
-                        data-wow-duration="1500ms">About Us<i class="fa-light fa-arrow-right-long"></i></a>
+
+                    <!-- Feature Card 2 -->
+                    <div class="about__info mb-30">
+                        <div class="icon bg__2">
+                            <i class="fa-solid fa-building-columns"></i>
+                        </div>
+                        <div>
+                            <h4>College Partnerships</h4>
+                            <p class="mt-10">Direct connections with accredited career colleges like Academy of Learning and CIMT College across Ontario.</p>
+                        </div>
+                    </div>
+
+                    <!-- Feature Card 3 -->
+                    <div class="about__info mb-30">
+                        <div class="icon bg__3">
+                            <i class="fa-solid fa-user-graduate"></i>
+                        </div>
+                        <div>
+                            <h4>Personalized Support</h4>
+                            <p class="mt-10">One-on-one guidance from application to admission, ensuring you find the perfect program that fits your schedule and goals.</p>
+                        </div>
+                    </div>
+
+                    <a href="https://gocollege.ca/about-us" class="btn-one mt-20">Learn More About Us<i class="fa-light fa-arrow-right-long"></i></a>
                 </div>
             </div>
         </div>
@@ -123,32 +258,9 @@
 </section>
 <!-- About area end here -->
 
-<!-- Banner video area start here -->
-<section class="topic-area pb-120 pt-40">
-    <div class="container">
-        <div class="section-header mb-60 text-center">
-            <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">How it works</h2>
-        </div>
-        <div class="banner-video-area">
-            <div class="container">
-                <div class="banner-video__wrp image">
-                    <img src="assets/images/video/video-image1.jpg" alt="image">
-                    <div class="banner-video__video-btn">
-                        <div class="video-btn video-pulse">
-                            <a class="video-popup" href="https://www.youtube.com/watch?v=oKu4GAeGjp8"><i
-                                    class="fa-solid fa-play"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Banner video area end here -->
 
 
-
-
+@if(count($courses) > 0)
 <!-- Courses area start here -->
 <section class="courses-area pt-120 pb-120 sub-bg">
     <div class="container">
@@ -166,167 +278,258 @@
     </div>
 </section>
 <!-- Courses area end here -->
+@endif
 
 
 
 @include('components.testimonials')
 
 
-
-
+{{--
 
 <!-- Topic area start here -->
 <section class="topic-area pt-120 pb-120">
     <div class="container">
         <div class="section-header mb-60 text-center">
             <h5>TOP CLASS COURSES</h5>
-            <h2>Popular <span>Topics To Learn</h2>
+            <h2>Popular <span>Topics To Learn</span></h2>
         </div>
         <div class="row g-4">
-            <div class="col-xl-4 col-md-6 wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
-                <div class="topic__item item-one">
-                    <div class="topic__icon">
-                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M32 7.5V2.8125C32 1.26169 30.7383 0 29.1875 0H2.8125C1.26169 0 0 1.26169 0 2.8125V7.5H32ZM21.625 3.75H27.25C27.7677 3.75 28.1875 4.16975 28.1875 4.6875C28.1875 5.20525 27.7677 5.625 27.25 5.625H21.625C21.1073 5.625 20.6875 5.20525 20.6875 4.6875C20.6875 4.16975 21.1073 3.75 21.625 3.75ZM12.25 3.75C12.7677 3.75 13.1875 4.16975 13.1875 4.6875C13.1875 5.20525 12.7677 5.625 12.25 5.625C11.7323 5.625 11.3125 5.20525 11.3125 4.6875C11.3125 4.16975 11.7323 3.75 12.25 3.75ZM8.5 3.75C9.01775 3.75 9.4375 4.16975 9.4375 4.6875C9.4375 5.20525 9.01775 5.625 8.5 5.625C7.98225 5.625 7.5625 5.20525 7.5625 4.6875C7.5625 4.16975 7.98225 3.75 8.5 3.75ZM4.75 3.75C5.26775 3.75 5.6875 4.16975 5.6875 4.6875C5.6875 5.20525 5.26775 5.625 4.75 5.625C4.23225 5.625 3.8125 5.20525 3.8125 4.6875C3.8125 4.16975 4.23225 3.75 4.75 3.75ZM0 9.375V29.0625C0 30.6133 1.26169 31.875 2.8125 31.875H29.1875C30.7383 31.875 32 30.6133 32 29.0625V9.375H0ZM10.9606 22.7054C11.365 23.0289 11.4305 23.6188 11.1071 24.0231C10.7837 24.4274 10.1936 24.493 9.78938 24.1695L5.10187 20.4195C4.63319 20.0447 4.63287 19.3305 5.10187 18.9554L9.78938 15.2054C10.1935 14.8819 10.7836 14.9474 11.1071 15.3518C11.4305 15.7561 11.365 16.3461 10.9606 16.6694L7.18825 19.6875L10.9606 22.7054ZM19.6742 13.4943L14.0492 26.6193C13.8453 27.0951 13.2943 27.3158 12.8182 27.1117C12.3423 26.9077 12.1218 26.3566 12.3258 25.8807L17.9508 12.7557C18.1548 12.2798 18.7059 12.0594 19.1818 12.2633C19.6577 12.4672 19.8782 13.0184 19.6742 13.4943ZM26.8981 20.4196L22.2106 24.1696C21.807 24.4926 21.2169 24.4281 20.8929 24.0232C20.5695 23.6189 20.635 23.0289 21.0394 22.7055L24.8118 19.6875L21.0394 16.6696C20.635 16.3461 20.5695 15.7562 20.8929 15.3519C21.2163 14.9476 21.8063 14.882 22.2106 15.2055L26.8981 18.9555C27.3668 19.3303 27.3671 20.0444 26.8981 20.4196Z"
-                                fill="white" />
-                        </svg>
+            
+            <!-- Development -->
+            <div class="col-xl-4 col-md-6">
+                <div class="topic-card">
+                    <div class="topic-card-image">
+                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=250&fit=crop" alt="Development">
+                        <div class="topic-card-overlay"></div>
                     </div>
-                    <div class="topic__content">
+                    <div class="topic-card-body">
                         <h4><a href="course.html">Development</a></h4>
-                        <span>3 Courses</span>
+                        <span>Learn coding and programming skills</span>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-md-6 wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
-                <div class="topic__item active item-two">
-                    <div class="topic__icon">
-                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M29.25 11.25H27.5378C27.4188 10.9159 27.2829 10.5881 27.1305 10.2679L28.341 9.05625C28.5519 8.84528 28.6704 8.55918 28.6704 8.26087C28.6704 7.96257 28.5519 7.67647 28.341 7.4655L25.1595 4.284C24.9485 4.0731 24.6624 3.95462 24.3641 3.95462C24.0658 3.95462 23.7797 4.0731 23.5688 4.284L22.3571 5.4945C22.037 5.34182 21.7092 5.20588 21.375 5.08725V3.375C21.375 3.07663 21.2565 2.79048 21.0455 2.5795C20.8345 2.36853 20.5484 2.25 20.25 2.25H15.75C15.4516 2.25 15.1655 2.36853 14.9545 2.5795C14.7435 2.79048 14.625 3.07663 14.625 3.375V5.08725C14.2908 5.20588 13.963 5.34182 13.6429 5.4945L12.4313 4.284C12.2203 4.0731 11.9342 3.95462 11.6359 3.95462C11.3376 3.95462 11.0515 4.0731 10.8405 4.284L7.659 7.4655C7.4481 7.67647 7.32962 7.96257 7.32962 8.26087C7.32962 8.55918 7.4481 8.84528 7.659 9.05625L8.8695 10.2679C8.71682 10.588 8.58088 10.9158 8.46225 11.25H6.75C6.45163 11.25 6.16548 11.3685 5.95451 11.5795C5.74353 11.7905 5.625 12.0766 5.625 12.375V15.75H12.4875C12.3207 14.9327 12.3377 14.0886 12.5374 13.2788C12.737 12.4689 13.1143 11.7136 13.6418 11.0675C14.1693 10.4214 14.834 9.90074 15.5875 9.54318C16.3411 9.18561 17.1648 9.00011 17.9989 9.00011C18.833 9.00011 19.6566 9.18561 20.4102 9.54318C21.1638 9.90074 21.8284 10.4214 22.3559 11.0675C22.8835 11.7136 23.2607 12.4689 23.4604 13.2788C23.66 14.0886 23.6771 14.9327 23.5103 15.75H30.375V12.375C30.375 12.0766 30.2565 11.7905 30.0455 11.5795C29.8345 11.3685 29.5484 11.25 29.25 11.25Z"
-                                fill="white" />
-                            <path
-                                d="M22.5 14.625C22.5 13.4315 22.0259 12.2869 21.182 11.443C20.3381 10.5991 19.1935 10.125 18 10.125C16.8065 10.125 15.6619 10.5991 14.818 11.443C13.9741 12.2869 13.5 13.4315 13.5 14.625C13.5 15.0154 13.5652 15.3889 13.6586 15.75H22.3414C22.4347 15.3889 22.5 15.0154 22.5 14.625ZM14.625 25.875V30.375C14.625 30.6734 14.5065 30.9595 14.2955 31.1705C14.0845 31.3815 13.7984 31.5 13.5 31.5H6.75C6.45163 31.5 6.16548 31.3815 5.95451 31.1705C5.74353 30.9595 5.625 30.6734 5.625 30.375V25.875H2.25V31.5C2.25 32.0967 2.48705 32.669 2.90901 33.091C3.33097 33.5129 3.90326 33.75 4.5 33.75H31.5C32.0967 33.75 32.669 33.5129 33.091 33.091C33.5129 32.669 33.75 32.0967 33.75 31.5V25.875H14.625ZM20.8125 31.5C20.3649 31.5 19.9357 31.3222 19.6193 31.0057C19.3028 30.6893 19.125 30.2601 19.125 29.8125C19.125 29.3649 19.3028 28.9357 19.6193 28.6193C19.9357 28.3028 20.3649 28.125 20.8125 28.125C21.2601 28.125 21.6893 28.3028 22.0057 28.6193C22.3222 28.9357 22.5 29.3649 22.5 29.8125C22.5 30.2601 22.3222 30.6893 22.0057 31.0057C21.6893 31.3222 21.2601 31.5 20.8125 31.5ZM25.3125 31.5C24.8649 31.5 24.4357 31.3222 24.1193 31.0057C23.8028 30.6893 23.625 30.2601 23.625 29.8125C23.625 29.3649 23.8028 28.9357 24.1193 28.6193C24.4357 28.3028 24.8649 28.125 25.3125 28.125C25.7601 28.125 26.1893 28.3028 26.5057 28.6193C26.8222 28.9357 27 29.3649 27 29.8125C27 30.2601 26.8222 30.6893 26.5057 31.0057C26.1893 31.3222 25.7601 31.5 25.3125 31.5ZM29.8125 31.5C29.3649 31.5 28.9357 31.3222 28.6193 31.0057C28.3028 30.6893 28.125 30.2601 28.125 29.8125C28.125 29.3649 28.3028 28.9357 28.6193 28.6193C28.9357 28.3028 29.3649 28.125 29.8125 28.125C30.2601 28.125 30.6893 28.3028 31.0057 28.6193C31.3222 28.9357 31.5 29.3649 31.5 29.8125C31.5 30.2601 31.3222 30.6893 31.0057 31.0057C30.6893 31.3222 30.2601 31.5 29.8125 31.5ZM31.5 16.875H4.5C3.90326 16.875 3.33097 17.1121 2.90901 17.534C2.48705 17.956 2.25 18.5283 2.25 19.125V24.75H5.625V22.5H7.875C8.17337 22.5 8.45952 22.3815 8.67049 22.1705C8.88147 21.9595 9 21.6734 9 21.375V19.125H13.5C13.7984 19.125 14.0845 19.2435 14.2955 19.4545C14.5065 19.6655 14.625 19.9516 14.625 20.25V24.75H33.75V19.125C33.75 18.5283 33.5129 17.956 33.091 17.534C32.669 17.1121 32.0967 16.875 31.5 16.875ZM7.875 21.375H5.625L7.875 19.125V21.375ZM20.8125 22.5C20.3649 22.5 19.9357 22.3222 19.6193 22.0057C19.3028 21.6893 19.125 21.2601 19.125 20.8125C19.125 20.3649 19.3028 19.9357 19.6193 19.6193C19.9357 19.3028 20.3649 19.125 20.8125 19.125C21.2601 19.125 21.6893 19.3028 22.0057 19.6193C22.3222 19.9357 22.5 20.3649 22.5 20.8125C22.5 21.2601 22.3222 21.6893 22.0057 22.0057C21.6893 22.3222 21.2601 22.5 20.8125 22.5ZM25.3125 22.5C24.8649 22.5 24.4357 22.3222 24.1193 22.0057C23.8028 21.6893 23.625 21.2601 23.625 20.8125C23.625 20.3649 23.8028 19.9357 24.1193 19.6193C24.4357 19.3028 24.8649 19.125 25.3125 19.125C25.7601 19.125 26.1893 19.3028 26.5057 19.6193C26.8222 19.9357 27 20.3649 27 20.8125C27 21.2601 26.8222 21.6893 26.5057 22.0057C26.1893 22.3222 25.7601 22.5 25.3125 22.5ZM29.8125 22.5C29.3649 22.5 28.9357 22.3222 28.6193 22.0057C28.3028 21.6893 28.125 21.2601 28.125 20.8125C28.125 20.3649 28.3028 19.9357 28.6193 19.6193C28.9357 19.3028 29.3649 19.125 29.8125 19.125C30.2601 19.125 30.6893 19.3028 31.0057 19.6193C31.3222 19.9357 31.5 20.3649 31.5 20.8125C31.5 21.2601 31.3222 21.6893 31.0057 22.0057C30.6893 22.3222 30.2601 22.5 29.8125 22.5Z"
-                                fill="white" />
-                            <path
-                                d="M12.9375 24.75H7.3125C7.16332 24.75 7.02024 24.6907 6.91475 24.5852C6.80926 24.4798 6.75 24.3367 6.75 24.1875C6.75 24.0383 6.80926 23.8952 6.91475 23.7898C7.02024 23.6843 7.16332 23.625 7.3125 23.625H12.9375C13.0867 23.625 13.2298 23.6843 13.3352 23.7898C13.4407 23.8952 13.5 24.0383 13.5 24.1875C13.5 24.3367 13.4407 24.4798 13.3352 24.5852C13.2298 24.6907 13.0867 24.75 12.9375 24.75ZM12.9375 27H7.3125C7.16332 27 7.02024 26.9407 6.91475 26.8352C6.80926 26.7298 6.75 26.5867 6.75 26.4375C6.75 26.2883 6.80926 26.1452 6.91475 26.0398C7.02024 25.9343 7.16332 25.875 7.3125 25.875H12.9375C13.0867 25.875 13.2298 25.9343 13.3352 26.0398C13.4407 26.1452 13.5 26.2883 13.5 26.4375C13.5 26.5867 13.4407 26.7298 13.3352 26.8352C13.2298 26.9407 13.0867 27 12.9375 27ZM12.9375 29.25H7.3125C7.16332 29.25 7.02024 29.1907 6.91475 29.0852C6.80926 28.9798 6.75 28.8367 6.75 28.6875C6.75 28.5383 6.80926 28.3952 6.91475 28.2898C7.02024 28.1843 7.16332 28.125 7.3125 28.125H12.9375C13.0867 28.125 13.2298 28.1843 13.3352 28.2898C13.4407 28.3952 13.5 28.5383 13.5 28.6875C13.5 28.8367 13.4407 28.9798 13.3352 29.0852C13.2298 29.1907 13.0867 29.25 12.9375 29.25Z"
-                                fill="white" />
-                        </svg>
 
+            <!-- Data Science -->
+            <div class="col-xl-4 col-md-6">
+                <div class="topic-card">
+                    <div class="topic-card-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop" alt="Data Science">
+                        <div class="topic-card-overlay"></div>
                     </div>
-                    <div class="topic__content">
+                    <div class="topic-card-body">
                         <h4><a href="course.html">Data Science</a></h4>
-                        <span>5 Courses</span>
+                        <span>Master data analysis and AI</span>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-md-6 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <div class="topic__item item-three">
-                    <div class="topic__icon">
-                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#clip0_994_499)">
-                                <path
-                                    d="M34.9453 0H30.6562C30.0733 0 29.6016 0.471727 29.6016 1.05469V2.10938H20.9698C20.5329 0.884391 19.3732 0 18 0C16.6268 0 15.4671 0.884391 15.0302 2.10938H6.39844V1.05469C6.39844 0.471727 5.92671 0 5.34375 0H1.05469C0.471727 0 0 0.471727 0 1.05469V5.27344C0 5.8564 0.471727 6.32812 1.05469 6.32812H5.34375C5.92671 6.32812 6.39844 5.8564 6.39844 5.27344V4.20469H10.73C7.06971 6.49132 4.65623 10.5075 4.36774 15.0057C3.10226 15.42 2.17969 16.598 2.17969 18C2.17969 19.7447 3.59902 21.1641 5.34375 21.1641C7.08848 21.1641 8.50781 19.7447 8.50781 18C8.50781 16.6542 7.65977 15.51 6.47297 15.0534C6.83283 10.0384 10.3321 5.81147 15.1997 4.60547C15.7261 5.62338 16.7771 6.32812 18 6.32812C19.2229 6.32812 20.2739 5.62338 20.8003 4.60547C25.6679 5.8114 29.1672 10.0383 29.527 15.0533C28.3402 15.51 27.4922 16.6542 27.4922 18C27.4922 19.7447 28.9115 21.1641 30.6562 21.1641C32.401 21.1641 33.8203 19.7447 33.8203 18C33.8203 16.598 32.8977 15.42 31.6323 15.0057C31.3438 10.5075 28.9303 6.50538 25.27 4.21875H29.6016V5.27344C29.6016 5.8564 30.0733 6.32812 30.6562 6.32812H34.9453C35.5283 6.32812 36 5.8564 36 5.27344V1.05469C36 0.471727 35.5283 0 34.9453 0ZM25.1754 34.6918C24.6237 33.0037 23.0344 31.7109 21.1641 31.7109H14.8359C12.9656 31.7109 11.3763 33.0037 10.8246 34.6918C10.6119 35.3427 11.1656 36 11.8505 36H24.1495C24.8343 36 25.3881 35.3427 25.1754 34.6918Z"
-                                    fill="white" />
-                                <path
-                                    d="M27.315 21.6337L19.0547 9.24316V19.2489C20.2797 19.6858 21.1641 20.8455 21.1641 22.2187C21.1641 23.9634 19.7447 25.3828 18 25.3828C16.2553 25.3828 14.8359 23.9634 14.8359 22.2187C14.8359 20.8455 15.7203 19.6858 16.9453 19.2489V9.24316L8.68501 21.6337C8.40587 22.0519 8.46149 22.6091 8.81685 22.9644C10.753 24.9006 11.9907 27.395 12.4683 30.0706C13.201 29.7734 13.9978 29.6015 14.8359 29.6015H21.1641C22.0022 29.6015 22.799 29.7733 23.5317 30.0704C24.0093 27.3947 25.247 24.9006 27.1832 22.9644C27.5385 22.6091 27.5942 22.0519 27.315 21.6337Z"
-                                    fill="white" />
-                                <path
-                                    d="M18 21.1641C17.4181 21.1641 16.9453 21.6368 16.9453 22.2188C16.9453 22.8007 17.4181 23.2734 18 23.2734C18.5819 23.2734 19.0547 22.8007 19.0547 22.2188C19.0547 21.6368 18.5819 21.1641 18 21.1641Z"
-                                    fill="white" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_994_499">
-                                    <rect width="36" height="36" fill="white" />
-                                </clipPath>
-                            </defs>
-                        </svg>
 
+            <!-- Arts & Design -->
+            <div class="col-xl-4 col-md-6">
+                <div class="topic-card">
+                    <div class="topic-card-image">
+                        <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&h=250&fit=crop" alt="Arts & Design">
+                        <div class="topic-card-overlay"></div>
                     </div>
-                    <div class="topic__content">
+                    <div class="topic-card-body">
                         <h4><a href="course.html">Arts & Design</a></h4>
-                        <span>2 Courses</span>
+                        <span>Explore creative design solutions</span>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-md-6 wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
-                <div class="topic__item item-four">
-                    <div class="topic__icon">
-                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#clip0_994_508)">
-                                <path
-                                    d="M36 33.8906H33.8906V12.6562H27.4922V33.8906H25.3828V21.0938H19.0547V33.8906H16.9453V16.875H10.6172V33.8906H8.50781V23.2031H2.10938V33.8906H0V36H36V33.8906Z"
-                                    fill="white" />
-                                <path
-                                    d="M36.0001 8.4375V0H27.4922V2.10938H32.3993L22.2188 12.2195L13.7813 3.78204L0.309082 17.184L1.80041 18.6754L13.7813 6.76484L22.2188 15.2023L33.8907 3.60077V8.4375H36.0001Z"
-                                    fill="white" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_994_508">
-                                    <rect width="36" height="36" fill="white" />
-                                </clipPath>
-                            </defs>
-                        </svg>
 
-
+            <!-- Business & Finance -->
+            <div class="col-xl-4 col-md-6">
+                <div class="topic-card">
+                    <div class="topic-card-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop" alt="Business & Finance">
+                        <div class="topic-card-overlay"></div>
                     </div>
-                    <div class="topic__content">
+                    <div class="topic-card-body">
                         <h4><a href="course.html">Business & Finance</a></h4>
-                        <span>2 Courses</span>
+                        <span>Build business and financial skills</span>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-md-6 wow fadeInLeft" data-wow-delay="400ms" data-wow-duration="1500ms">
-                <div class="topic__item item-five">
-                    <div class="topic__icon">
-                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M25.875 16.875H10.125C9.52826 16.875 8.95597 17.1121 8.53401 17.534C8.11205 17.956 7.875 18.5283 7.875 19.125V29.25H28.125V19.125C28.125 18.5283 27.8879 17.956 27.466 17.534C27.044 17.1121 26.4717 16.875 25.875 16.875ZM16.6241 24.8445C16.7435 24.9291 16.8252 25.057 16.8518 25.2008C16.8785 25.3447 16.8481 25.4933 16.767 25.6151C16.6859 25.7369 16.5605 25.8223 16.4175 25.8532C16.2744 25.8841 16.125 25.858 16.0009 25.7805L12.6259 23.5305C12.5491 23.479 12.4861 23.4093 12.4426 23.3277C12.3991 23.2461 12.3763 23.155 12.3763 23.0625C12.3763 22.97 12.3991 22.8789 12.4426 22.7973C12.4861 22.7157 12.5491 22.646 12.6259 22.5945L16.0009 20.3445C16.0623 20.301 16.1318 20.2702 16.2053 20.254C16.2788 20.2378 16.3548 20.2366 16.4288 20.2503C16.5027 20.264 16.5732 20.2924 16.6361 20.3339C16.6989 20.3753 16.7527 20.429 16.7944 20.4916C16.8361 20.5542 16.8649 20.6246 16.8789 20.6986C16.8929 20.7725 16.8919 20.8485 16.8761 20.9221C16.8602 20.9956 16.8297 21.0652 16.7864 21.1268C16.7432 21.1884 16.688 21.2406 16.6241 21.2805L13.9511 23.0625L16.6241 24.8445ZM23.3741 23.5305L19.9991 25.7805C19.9377 25.8214 19.8687 25.8498 19.7963 25.8641C19.7239 25.8784 19.6493 25.8783 19.5769 25.8638C19.5045 25.8493 19.4357 25.8206 19.3744 25.7795C19.3131 25.7384 19.2604 25.6856 19.2195 25.6241C19.1786 25.5627 19.1502 25.4937 19.1359 25.4213C19.1216 25.3489 19.1217 25.2743 19.1362 25.2019C19.1507 25.1295 19.1794 25.0607 19.2205 24.9994C19.2616 24.9381 19.3144 24.8854 19.3759 24.8445L22.0489 23.0625L19.3759 21.2805C19.2565 21.1959 19.1748 21.068 19.1482 20.9242C19.1215 20.7803 19.1519 20.6317 19.233 20.5099C19.3141 20.3881 19.4395 20.3027 19.5825 20.2718C19.7256 20.2409 19.875 20.267 19.9991 20.3445L23.3741 22.5945C23.4509 22.646 23.5139 22.7157 23.5574 22.7973C23.6009 22.8789 23.6237 22.97 23.6237 23.0625C23.6237 23.155 23.6009 23.2461 23.5574 23.3277C23.5139 23.4093 23.4509 23.479 23.3741 23.5305ZM6.75 14.625C6.75 13.3841 5.74088 12.375 4.5 12.375C3.25912 12.375 2.25 13.3841 2.25 14.625C2.25 15.4541 2.70562 16.1719 3.375 16.5623V23.625C3.375 23.9234 3.49353 24.2095 3.7045 24.4205C3.91548 24.6315 4.20163 24.75 4.5 24.75H6.75V22.5H5.625V16.5623C6.29437 16.1719 6.75 15.4541 6.75 14.625ZM18 2.25C16.7591 2.25 15.75 3.25912 15.75 4.5C15.75 5.32912 16.2056 6.04688 16.875 6.43725V15.75H19.125V6.43725C19.7944 6.04688 20.25 5.32912 20.25 4.5C20.25 3.25912 19.2409 2.25 18 2.25ZM33.75 14.625C33.75 13.3841 32.7409 12.375 31.5 12.375C30.2591 12.375 29.25 13.3841 29.25 14.625C29.25 15.4541 29.7056 16.1719 30.375 16.5623V22.5H29.25V24.75H31.5C31.7984 24.75 32.0845 24.6315 32.2955 24.4205C32.5065 24.2095 32.625 23.9234 32.625 23.625V16.5623C33.2944 16.1719 33.75 15.4541 33.75 14.625ZM13.5 10.125H10.125V6.43725C10.7944 6.04688 11.25 5.32912 11.25 4.5C11.25 3.25912 10.2409 2.25 9 2.25C7.75912 2.25 6.75 3.25912 6.75 4.5C6.75 5.32912 7.20563 6.04688 7.875 6.43725V11.25C7.875 11.5484 7.99353 11.8345 8.2045 12.0455C8.41548 12.2565 8.70163 12.375 9 12.375H12.375V15.75H14.625V11.25C14.625 10.9516 14.5065 10.6655 14.2955 10.4545C14.0845 10.2435 13.7984 10.125 13.5 10.125ZM29.25 4.5C29.25 3.25912 28.2409 2.25 27 2.25C25.7591 2.25 24.75 3.25912 24.75 4.5C24.75 5.32912 25.2056 6.04688 25.875 6.43725V10.125H22.5C22.2016 10.125 21.9155 10.2435 21.7045 10.4545C21.4935 10.6655 21.375 10.9516 21.375 11.25V15.75H23.625V12.375H27C27.2984 12.375 27.5845 12.2565 27.7955 12.0455C28.0065 11.8345 28.125 11.5484 28.125 11.25V6.43725C28.7944 6.04688 29.25 5.32912 29.25 4.5ZM27 33.75H9C8.10489 33.75 7.24645 33.3944 6.61351 32.7615C5.98058 32.1286 5.625 31.2701 5.625 30.375H30.375C30.375 31.2701 30.0194 32.1286 29.3865 32.7615C28.7536 33.3944 27.8951 33.75 27 33.75Z"
-                                fill="white" />
-                        </svg>
 
+            <!-- Computer Science -->
+            <div class="col-xl-4 col-md-6">
+                <div class="topic-card">
+                    <div class="topic-card-image">
+                        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=250&fit=crop" alt="Computer Science">
+                        <div class="topic-card-overlay"></div>
                     </div>
-                    <div class="topic__content">
+                    <div class="topic-card-body">
                         <h4><a href="course.html">Computer Science</a></h4>
-                        <span>4 Courses</span>
+                        <span>Study computing fundamentals</span>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-md-6 wow fadeInLeft" data-wow-delay="500ms" data-wow-duration="1500ms">
-                <div class="topic__item item-six">
-                    <div class="topic__icon">
-                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#clip0_994_530)">
-                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                    d="M27.6609 26.3541L27.8377 26.4562C30.1279 27.7784 32.3535 25.1003 33.379 23.3239C34.4046 21.5476 35.6114 18.2812 33.3211 16.9589L33.1443 16.8569C32.9677 16.7554 32.758 16.7279 32.5613 16.7807C32.3645 16.8334 32.1966 16.9619 32.0944 17.1381L31.3875 18.3623C31.286 18.5389 31.2586 18.7486 31.3113 18.9453C31.364 19.1421 31.4925 19.31 31.6687 19.4123L32.0836 19.6513C32.2384 19.7394 32.3576 19.8789 32.4203 20.0456C32.4831 20.2124 32.4855 20.3958 32.4271 20.5641C32.005 21.7803 31.3555 22.9052 30.5134 23.8789C30.3968 24.0136 30.2367 24.1032 30.061 24.1322C29.8852 24.1612 29.7048 24.1278 29.5511 24.0378L29.1363 23.7987C28.9597 23.6972 28.75 23.6698 28.5532 23.7225C28.3564 23.7752 28.1885 23.9037 28.0863 24.0799L27.3797 25.3041C27.2782 25.4807 27.2507 25.6904 27.3035 25.8872C27.3562 26.084 27.4847 26.2518 27.6609 26.3541ZM10.9327 7.42924C9.90914 7.42924 9.39558 8.66928 10.1193 9.393C10.1833 9.45703 10.2193 9.54387 10.2193 9.63442C10.2193 9.72497 10.1833 9.81181 10.1193 9.87584L9.38419 10.6109C9.32016 10.6749 9.23332 10.7109 9.14277 10.7109C9.05222 10.7109 8.96538 10.6749 8.90135 10.6109C8.17763 9.88716 6.93766 10.4007 6.93766 11.4243C6.93766 11.5148 6.90169 11.6017 6.83766 11.6657C6.77363 11.7297 6.68678 11.7657 6.59623 11.7657H5.55673C5.51189 11.7657 5.4675 11.7569 5.42607 11.7397C5.38465 11.7225 5.34702 11.6974 5.31532 11.6657C5.28362 11.634 5.25848 11.5963 5.24132 11.5549C5.22417 11.5135 5.21535 11.4691 5.21536 11.4243C5.21536 10.3995 3.97624 9.88624 3.2516 10.6109C3.18757 10.6749 3.10073 10.7109 3.01018 10.7109C2.91964 10.7109 2.8328 10.6749 2.76877 10.6109L2.03372 9.87584C1.9697 9.81181 1.93373 9.72497 1.93373 9.63442C1.93373 9.54387 1.9697 9.45703 2.03372 9.393C2.75738 8.66928 2.24388 7.42924 1.22034 7.42924C1.12979 7.42924 1.04294 7.39327 0.978911 7.32924C0.914879 7.26521 0.878906 7.17836 0.878906 7.08781V6.04838C0.878906 5.95782 0.914879 5.87098 0.978911 5.80694C1.04294 5.74291 1.12979 5.70694 1.22034 5.70694C2.24388 5.70694 2.75738 4.46691 2.03372 3.74325C1.96969 3.67921 1.93372 3.59236 1.93372 3.5018C1.93372 3.41124 1.96969 3.32439 2.03372 3.26035L2.76877 2.5253C2.8328 2.46128 2.91964 2.42531 3.01018 2.42531C3.10073 2.42531 3.18757 2.46128 3.2516 2.5253C3.97533 3.24903 5.21536 2.73546 5.21536 1.71192C5.21535 1.66709 5.22417 1.62269 5.24132 1.58127C5.25848 1.53984 5.28362 1.5022 5.31532 1.4705C5.34702 1.43879 5.38465 1.41364 5.42607 1.39648C5.4675 1.37932 5.51189 1.37049 5.55673 1.37049H6.59623C6.68678 1.37049 6.77363 1.40646 6.83766 1.47049C6.90169 1.53452 6.93766 1.62137 6.93766 1.71192C6.93766 2.73546 8.17763 3.24903 8.90135 2.5253C8.96538 2.46128 9.05222 2.42531 9.14277 2.42531C9.23332 2.42531 9.32016 2.46128 9.38419 2.5253L10.1193 3.26035C10.1833 3.32439 10.2193 3.41124 10.2193 3.5018C10.2193 3.59236 10.1833 3.67921 10.1193 3.74325C9.39558 4.46691 9.90914 5.70694 10.9327 5.70694C10.9775 5.70694 11.0219 5.71577 11.0633 5.73293C11.1048 5.75009 11.1424 5.77524 11.1741 5.80695C11.2058 5.83865 11.2309 5.8763 11.2481 5.91772C11.2652 5.95914 11.2741 6.00354 11.274 6.04838V7.08781C11.2741 7.13264 11.2652 7.17704 11.2481 7.21846C11.2309 7.25989 11.2058 7.29753 11.1741 7.32924C11.1424 7.36094 11.1048 7.38609 11.0633 7.40325C11.0219 7.42041 10.9775 7.42924 10.9327 7.42924ZM6.07648 4.07105C5.58255 4.07105 5.09971 4.21752 4.68902 4.49193C4.27833 4.76634 3.95824 5.15638 3.76922 5.61271C3.5802 6.06904 3.53074 6.57118 3.6271 7.05562C3.72346 7.54006 3.96131 7.98505 4.31058 8.33431C4.65984 8.68357 5.10483 8.92142 5.58927 9.01778C6.07371 9.11414 6.57584 9.06469 7.03218 8.87567C7.48851 8.68665 7.87854 8.36656 8.15296 7.95587C8.42737 7.54518 8.57384 7.06234 8.57384 6.56841C8.57385 6.24045 8.50926 5.9157 8.38375 5.6127C8.25825 5.3097 8.0743 5.03439 7.8424 4.80249C7.61049 4.57058 7.33518 4.38663 7.03219 4.26113C6.72919 4.13563 6.40444 4.07104 6.07648 4.07105ZM11.7688 17.1582C12.2061 17.9105 12.9233 18.4593 13.7638 18.6845C14.6043 18.9098 15.4999 18.7933 16.2548 18.3605L18.8292 16.8741L15.545 11.1858L12.9708 12.6717C12.2186 13.109 11.6699 13.8262 11.4447 14.6668C11.2195 15.5073 11.336 16.4027 11.7688 17.1576V17.1582ZM19.4204 17.6693L17.3568 18.8608L20.743 23.3919C20.7974 23.4638 20.8662 23.5234 20.945 23.5671C21.0238 23.6108 21.1108 23.6376 21.2005 23.6457C21.2903 23.6538 21.3807 23.6431 21.466 23.6142C21.5514 23.5854 21.6297 23.539 21.6961 23.4781L22.4779 22.7685C22.5981 22.659 22.6731 22.5085 22.688 22.3465C22.7028 22.1846 22.6566 22.0229 22.5584 21.8933L19.4203 17.6691L19.4204 17.6693ZM30.4898 15.3675C30.8405 15.1636 31.0963 14.8293 31.2013 14.4375C31.3063 14.0457 31.2519 13.6283 31.0501 13.2764L24.7711 2.40049C24.5681 2.04889 24.2337 1.79232 23.8416 1.68723C23.4494 1.58214 23.0316 1.63715 22.68 1.84014C22.3284 2.04313 22.0718 2.37749 21.9667 2.76965C21.8616 3.16181 21.9166 3.57966 22.1196 3.93127L28.3992 14.8072C28.603 15.1579 28.9374 15.4136 29.3291 15.5186C29.7209 15.6236 30.1383 15.5692 30.4902 15.3675H30.4898ZM32.3135 9.62996C32.183 9.62996 32.0578 9.5781 31.9655 9.4858C31.8732 9.39349 31.8213 9.2683 31.8213 9.13777C31.8213 9.00723 31.8732 8.88204 31.9655 8.78974C32.0578 8.69744 32.183 8.64558 32.3135 8.64558H34.6289C34.7594 8.64558 34.8846 8.69744 34.9769 8.78974C35.0692 8.88204 35.1211 9.00723 35.1211 9.13777C35.1211 9.2683 35.0692 9.39349 34.9769 9.4858C34.8846 9.5781 34.7594 9.62996 34.6289 9.62996H32.3135ZM29.4117 3.62175C29.3462 3.734 29.2389 3.8157 29.1133 3.84896C28.9877 3.88222 28.854 3.86432 28.7415 3.79919C28.6291 3.73405 28.547 3.627 28.5134 3.50148C28.4797 3.37596 28.4972 3.24222 28.562 3.12956L29.7197 1.12432C29.785 1.01163 29.8923 0.929485 30.0182 0.895953C30.144 0.86242 30.278 0.880249 30.3907 0.945518C30.5034 1.01079 30.5855 1.11815 30.619 1.24398C30.6526 1.36982 30.6348 1.50382 30.5695 1.61651L29.4117 3.62175ZM32.1526 5.95542C32.0968 5.98749 32.0353 6.00826 31.9715 6.01653C31.9076 6.02481 31.8428 6.02043 31.7807 6.00366C31.7186 5.98688 31.6604 5.95803 31.6094 5.91876C31.5584 5.87948 31.5157 5.83055 31.4836 5.77476C31.4515 5.71896 31.4307 5.6574 31.4225 5.59358C31.4142 5.52976 31.4186 5.46494 31.4354 5.40281C31.4521 5.34068 31.481 5.28247 31.5203 5.23149C31.5595 5.18051 31.6085 5.13777 31.6642 5.1057L33.5652 4.00777C33.6778 3.94454 33.8108 3.92832 33.9353 3.96261C34.0598 3.99691 34.1657 4.07896 34.2301 4.19092C34.2944 4.30288 34.312 4.43572 34.2789 4.56055C34.2458 4.68538 34.1649 4.79212 34.0535 4.85756L32.1526 5.95542ZM16.4985 10.8677L19.5811 16.207C22.2384 15.1228 24.8251 14.5437 27.0738 14.481L21.7397 5.24189C20.5609 7.15791 18.766 9.10852 16.4985 10.8677ZM27.9281 5.90065C28.2876 5.83558 28.6584 5.88311 28.9899 6.03675C29.3213 6.19039 29.5972 6.44265 29.7799 6.75903C29.9626 7.07541 30.0431 7.44048 30.0104 7.80435C29.9777 8.16821 29.8335 8.51311 29.5974 8.7919L27.9281 5.90065ZM26.0247 27.9843H18.1801C18.0084 27.9848 17.8438 28.0533 17.7224 28.1747C17.601 28.2961 17.5326 28.4606 17.5321 28.6323V34.4725C17.5326 34.6442 17.601 34.8087 17.7224 34.9301C17.8438 35.0516 18.0084 35.12 18.1801 35.1205H26.0247C26.1964 35.12 26.3609 35.0515 26.4823 34.9301C26.6037 34.8087 26.6722 34.6442 26.6727 34.4725V28.6323C26.6722 28.4606 26.6038 28.2961 26.4823 28.1747C26.3609 28.0533 26.1964 27.9848 26.0247 27.9843ZM23.1903 31.7351L21.0145 32.9912C20.9824 33.0097 20.946 33.0195 20.909 33.0195C20.872 33.0195 20.8356 33.0097 20.8035 32.9912C20.7714 32.9726 20.7448 32.946 20.7263 32.9139C20.7078 32.8818 20.6981 32.8454 20.6981 32.8084V30.2961C20.6981 30.2591 20.7078 30.2227 20.7263 30.1906C20.7448 30.1585 20.7714 30.1319 20.8035 30.1134C20.8356 30.0948 20.872 30.0851 20.909 30.0851C20.946 30.0851 20.9824 30.0948 21.0145 30.1133L23.1903 31.3695C23.2224 31.388 23.2491 31.4146 23.2676 31.4467C23.2862 31.4788 23.296 31.5152 23.296 31.5523C23.296 31.5893 23.2862 31.6258 23.2676 31.6579C23.2491 31.6899 23.2224 31.7166 23.1903 31.7351ZM20.991 16.7198C20.7144 16.8193 20.4414 16.9227 20.172 17.0301L23.3486 21.306C23.5915 21.6322 23.7047 22.037 23.666 22.4419C23.6274 22.8467 23.4398 23.2228 23.1395 23.4972L22.3577 24.2067C22.1897 24.3597 21.9916 24.4759 21.7761 24.5479C21.5606 24.6199 21.3324 24.6461 21.1062 24.6249C20.88 24.6036 20.6607 24.5353 20.4624 24.4244C20.2641 24.3136 20.0911 24.1625 19.9545 23.9809L18.0579 21.4431H7.01887C6.88834 21.4431 6.76315 21.3912 6.67085 21.2989C6.57854 21.2066 6.52669 21.0814 6.52669 20.9509C6.52669 20.8204 6.57854 20.6952 6.67085 20.6029C6.76315 20.5106 6.88834 20.4587 7.01887 20.4587H17.3223L16.4923 19.3478C15.7921 19.6927 15.0105 19.8386 14.233 19.7696C13.4555 19.7006 12.7119 19.4194 12.0833 18.9566C11.4548 18.4938 10.9654 17.8673 10.6686 17.1453C10.3719 16.4234 10.2791 15.6338 10.4005 14.8628C4.95703 15.6515 0.878906 18.8943 0.878906 22.7754C0.878906 25.5622 2.98174 28.02 6.18258 29.4762L4.99655 34.5856C4.9869 34.6272 4.99007 34.6707 5.00564 34.7104C5.02122 34.7501 5.04847 34.7841 5.0838 34.808C5.11913 34.832 5.16088 34.8446 5.20353 34.8443C5.24619 34.844 5.28775 34.8307 5.32273 34.8063L11.1005 30.7752C11.7211 30.8395 12.3446 30.8716 12.9685 30.8714C14.1706 30.8733 15.3698 30.7524 16.5474 30.5106V28.6323C16.548 28.1995 16.7202 27.7846 17.0263 27.4786C17.3324 27.1726 17.7473 27.0005 18.1801 27H23.2832C24.4088 25.7701 25.0582 24.3236 25.0582 22.7754C25.0582 20.3658 23.4856 18.2027 20.991 16.7198ZM18.9181 25.092H7.01887C6.88834 25.092 6.76315 25.0402 6.67085 24.9479C6.57854 24.8556 6.52669 24.7304 6.52669 24.5998C6.52669 24.4693 6.57854 24.3441 6.67085 24.2518C6.76315 24.1595 6.88834 24.1076 7.01887 24.1076H18.9181C19.0487 24.1076 19.1739 24.1595 19.2662 24.2518C19.3585 24.3441 19.4103 24.4693 19.4103 24.5998C19.4103 24.7304 19.3585 24.8556 19.2662 24.9479C19.1739 25.0402 19.0487 25.092 18.9181 25.092Z"
-                                    fill="white" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_994_530">
-                                    <rect width="36" height="36" fill="white" />
-                                </clipPath>
-                            </defs>
-                        </svg>
 
+            <!-- Sales Marketing -->
+            <div class="col-xl-4 col-md-6">
+                <div class="topic-card">
+                    <div class="topic-card-image">
+                        <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?w=400&h=250&fit=crop" alt="Sales Marketing">
+                        <div class="topic-card-overlay"></div>
                     </div>
-                    <div class="topic__content">
+                    <div class="topic-card-body">
                         <h4><a href="course.html">Sales Marketing</a></h4>
-                        <span>3 Courses</span>
+                        <span>Master marketing strategies</span>
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 </section>
 <!-- Topic area end here -->
 
+--}}
 
+
+
+
+<!-- FAQ area start here -->
+<section class="faq-area pt-120 pb-120 sub-bg">
+    <div class="container">
+        <div class="section-header mb-60 text-center">
+            <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">FREQUENTLY ASKED QUESTIONS</h5>
+            <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Got Questions? <span>We Have Answers</span></h2>
+            <p class="mt-20 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                Find answers to common questions about our services, admissions process, and financial aid options
+            </p>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-lg-10 mx-auto">
+                <div class="accordion" id="faqAccordion">
+                    
+                    <!-- FAQ Item 1 -->
+                    <div class="accordion-item wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Is your service really 100% free for students?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                <p>Yes! Our services are completely free for students. We partner with accredited career colleges in Ontario, and our compensation comes from our partner institutions, not from you. You pay nothing for our guidance, counseling, or application support.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 2 -->
+                    <div class="accordion-item wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                What types of financial aid can you help me access?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                <p>We specialize in helping students access multiple funding sources including OSAP (Ontario Student Assistance Program), Better Jobs Ontario, Second Career funding, EI-funded training, and various scholarships and grants. Our experts will evaluate your situation and help you maximize every dollar you're eligible for.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 3 -->
+                    <div class="accordion-item wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                How long does the application process take?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                <p>The timeline varies depending on your situation and the program you're applying to. Typically, the entire process from initial consultation to admission can take 2-4 weeks. Financial aid applications may take additional time. We work efficiently to get you enrolled as quickly as possible while ensuring all paperwork is completed correctly.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 4 -->
+                    <div class="accordion-item wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                What colleges do you partner with?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                <p>We partner with top accredited career colleges across Ontario, including Academy of Learning, CIMT College, and other reputable institutions. All our partner schools are registered with the Ministry of Colleges and Universities and meet strict quality standards. We'll help you find the best fit for your career goals.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 5 -->
+                    <div class="accordion-item wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Do I need to have previous work experience or education?
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                <p>Requirements vary by program. Many of our career college programs accept students with just a high school diploma or equivalent. Some programs may require specific prerequisites or work experience. During your free consultation, we'll assess your background and help you find programs that match your qualifications and career goals.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 6 -->
+                    <div class="accordion-item wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1500ms">
+                        <h2 class="accordion-header" id="headingSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                Can I study part-time or online?
+                            </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                <p>Yes! We understand that many students need flexible options. Our partner colleges offer full-time, part-time, online, and hybrid programs. We'll work with you to find a schedule that fits your current commitments, whether you're working, have family responsibilities, or need other accommodations.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 7 -->
+                    <div class="accordion-item wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                        <h2 class="accordion-header" id="headingSeven">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                What happens after I get admitted?
+                            </button>
+                        </h2>
+                        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                <p>Once you're admitted, we continue to support you through the financial aid process, course registration, and orientation. We ensure you have all the resources and information you need to start your program successfully. Our team remains available to answer questions even after you begin your studies.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 8 -->
+                    <div class="accordion-item wow fadeInUp" data-wow-delay="700ms" data-wow-duration="1500ms">
+                        <h2 class="accordion-header" id="headingEight">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                How do I get started?
+                            </button>
+                        </h2>
+                        <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                <p>Getting started is easy! Simply click the "Check My Eligibility" or "Get Started" button on our website to schedule a free consultation. We'll discuss your goals, assess your eligibility for financial aid, and help you find the right program. No obligation, no pressure—just helpful guidance from experienced education counselors.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- CTA after FAQ -->
+                <div class="text-center mt-60 wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
+                    <h4 class="mb-20">Still Have Questions?</h4>
+                    <p class="mb-30">Our team is here to help. Schedule a free consultation to get personalized answers.</p>
+                    <a href="{{ route('scheduleCall') }}" class="btn-one">Schedule Free Consultation<i class="fa-light fa-arrow-right-long"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- FAQ area end here -->
 
 
 <!-- Trial area start here -->

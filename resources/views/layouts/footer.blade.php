@@ -61,8 +61,8 @@
                     by <a href="#0" class="primary-color">GoCollege</a></p>
                 <ul class="d-flex align-items-center gap-4 wow fadeInDown" data-wow-delay="200ms"
                     data-wow-duration="1500ms">
-                    <li><a href="#0">Terms & Condition</a></li>
-                    <li><a href="#0">Privacy Policy</a></li>
+                    <li><a href="{{ route('terms') }}">Terms & Condition</a></li>
+                    <li><a href="{{ route('privacy') }}">Privacy Policy</a></li>
                 </ul>
             </div>
         </div>

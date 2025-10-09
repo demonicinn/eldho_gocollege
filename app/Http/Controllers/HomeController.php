@@ -76,7 +76,7 @@ class HomeController extends Controller
                 'message' => 'required',
             ]);
 
-            dd($validated);
+            //dd($validated);
             // Send email
             Mail::to('info@gocollege.ca')->send(new ContactMail($validated));
 
@@ -114,7 +114,17 @@ class HomeController extends Controller
     }
 
 
-
+    //
+    public function terms()
+    {
+        return view('front.terms');
+    }
+    
+    //
+    public function privacy()
+    {
+        return view('front.privacy');
+    }
 
 
 

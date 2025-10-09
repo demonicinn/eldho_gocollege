@@ -17,7 +17,7 @@
 <div class="col-lg-4 col-md-6 course all {{ $acourse->category }}">
     <div class="courses-two__item">
         <div class="courses-two__image">
-            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=280&fit=crop" alt="Web Development" class="w-100">
+            <img src="{{ $acourse->image_path }}" alt="{{ $acourse->title }}" class="w-100">
             @if($duration)
             <span class="time"><i class="fa-regular fa-clock"></i> {{ $duration }}</span>
             @endif

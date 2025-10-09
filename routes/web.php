@@ -41,6 +41,9 @@ Route::controller(HomeController::class)->group(function () {
 
     Route::match(['get', 'post'], '/contact-us', 'contact')->name('contact');
     Route::match(['get', 'post'], '/schedule-a-call', 'scheduleCall')->name('scheduleCall');
+    
+    Route::get('/terms-of-servive', 'terms')->name('terms');
+    Route::get('/privacy-policy', 'privacy')->name('privacy');
 });
 
 
