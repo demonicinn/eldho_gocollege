@@ -25,9 +25,9 @@
     <div class="container">
         <div class="blog-details__item-left align-items-center pt-4 pb-4">
             <div class="tags categories">
-                <a href="javascript:void(0)" data-cat="all" class="active">All</a>
+                <a href="javascript:void(0)" data-cat="all" class="active mb-2 all">All</a>
                 @foreach(categoriesArray() as $iCat => $cat)
-                <a href="javascript:void(0)" data-cat="{{ $iCat }}" class="mb-2">{{ $cat }}</a>
+                <a href="javascript:void(0)" data-cat="{{ $iCat }}" class="mb-2 {{ $iCat }}">{{ $cat }}</a>
                 @endforeach
             </div>
         </div>
@@ -48,16 +48,24 @@
 <script>
     $('.categories > a').on('click', function(){
         let cat = $(this).data('cat');
+        filterTab(cat);
+    });
 
+    
+
+
+    function filterTab(cat){
         $('.categories > a').removeClass('active');
-        $(this).addClass('active');
+        $(`.categories > a.${cat}`).addClass('active');
 
 
         $('#courses .course').hide();
         $(`#courses .course.${cat}`).show();
+    }
 
-    });
-
+    @if(request()->filter)
+        filterTab('{{request()->filter}}');
+    @endif
 
 </script>
 @endsection

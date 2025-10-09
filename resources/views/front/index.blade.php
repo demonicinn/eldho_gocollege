@@ -120,7 +120,7 @@
 <!-- How it works area end here -->
 
 <!-- About area start here -->
-<section class="about-area pt-120 pb-120">
+<section class="about-area pt-120 pb-120 sub-bg">
     <div class="container">
         <div class="section-header mb-60 text-center">
             <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">About GoCollege.ca</h5>
