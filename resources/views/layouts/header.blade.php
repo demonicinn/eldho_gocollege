@@ -31,8 +31,8 @@
                     <input type="text" placeholder="Search here..">
                     <button><i class="fa-regular fa-magnifying-glass"></i></button>
                 </div> -->
-                <div class="menu-btns d-none d-lg-flex">
-                    <a class="active" href="{{ route('scheduleCall') }}">Get Started</a>
+                <div class="d-none d-lg-flex">
+                    <a class="btn-one w-100 text-center" href="{{ route('scheduleCall') }}">Get Started</a>
                     <!-- <a href="#0">Sign Up</a> -->
                 </div>
             </div>

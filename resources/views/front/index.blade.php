@@ -37,38 +37,9 @@
 </section>
 <!-- Banner area end here -->
 
-<!-- Brand area start here -->
-<div class="brand-area pt-60 pb-60 bor-bottom">
-    <div class="container">
-        <div class="swiper brand__slider">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <img src="assets/images/brand/brand-image1.png" alt="image">
-                </div>
-                <div class="swiper-slide">
-                    <img src="assets/images/brand/brand-image2.png" alt="image">
-                </div>
-                <div class="swiper-slide">
-                    <img src="assets/images/brand/brand-image3.png" alt="image">
-                </div>
-                <div class="swiper-slide">
-                    <img src="assets/images/brand/brand-image4.png" alt="image">
-                </div>
-                <div class="swiper-slide">
-                    <img src="assets/images/brand/brand-image5.png" alt="image">
-                </div>
-                <div class="swiper-slide">
-                    <img src="assets/images/brand/brand-image6.png" alt="image">
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Brand area end here -->
-
 
 <!-- How it works area start here -->
-<section class="topic-area pb-120 pt-120 sub-bg">
+<section class="topic-area pb-120 pt-120">
     <div class="container">
         <div class="section-header mb-60 text-center">
             <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">HOW IT WORKS</h5>
@@ -152,7 +123,7 @@
 <section class="about-area pt-120 pb-120">
     <div class="container">
         <div class="section-header mb-60 text-center">
-            <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">ABOUT COLLEGE PATHWAYS</h5>
+            <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">About GoCollege.ca</h5>
             <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Your Pathway to Higher Education - <span>Free Admission Guidance</span></h2>
             <p class="mt-20 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
                 We specialize in helping Ontario students access career college education through OSAP funding and government financial aid.
@@ -220,7 +191,7 @@
                     <!-- Feature Card 1 -->
                     <div class="about__info mb-30">
                         <div class="icon bg__1">
-                            <i class="fa-solid fa-money-bill-trend-up"></i>
+                            <i class="fa-solid fa-money-bill"></i>
                         </div>
                         <div>
                             <h4>Funding Specialists</h4>
@@ -257,6 +228,64 @@
     </div>
 </section>
 <!-- About area end here -->
+
+
+
+
+
+
+<!-- Topic area start here -->
+<section class="topic-area pt-120 pb-120">
+    <div class="container">
+        <div class="section-header mb-60 text-center">
+            <h5>TOP CLASS COURSES</h5>
+            <h2>Popular <span>Topics To Learn</span></h2>
+        </div>
+        <div class="row g-4">
+            <div class="col-xl-6 col-md-6 wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
+                <div class="topic__item item-one">
+                    <div class="topic__icon">
+                        <i class="fa-solid fa-calculator"></i>
+                    </div>
+                    <div class="topic__content">
+                        <h4><a href="{{ route('courses') }}?filter=accounting">Accounting</a></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 col-md-6 wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
+                <div class="topic__item item-two">
+                    <div class="topic__icon">
+                        <i class="fa-solid fa-briefcase"></i>
+                    </div>
+                    <div class="topic__content">
+                        <h4><a href="{{ route('courses') }}?filter=business">Business</a></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 col-md-6 wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
+                <div class="topic__item item-three">
+                    <div class="topic__icon">
+                        <i class="fa-solid fa-heart-pulse"></i>
+                    </div>
+                    <div class="topic__content">
+                        <h4><a href="{{ route('courses') }}?filter=healthcare">Healthcare</a></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 col-md-6 wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
+                <div class="topic__item item-four">
+                    <div class="topic__icon">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <div class="topic__content">
+                        <h4><a href="{{ route('courses') }}?filter=it">Information Technology</a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Topic area end here -->
 
 
 
@@ -519,12 +548,6 @@
 
                 </div>
 
-                <!-- CTA after FAQ -->
-                <div class="text-center mt-60 wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
-                    <h4 class="mb-20">Still Have Questions?</h4>
-                    <p class="mb-30">Our team is here to help. Schedule a free consultation to get personalized answers.</p>
-                    <a href="{{ route('scheduleCall') }}" class="btn-one">Schedule Free Consultation<i class="fa-light fa-arrow-right-long"></i></a>
-                </div>
             </div>
         </div>
     </div>
