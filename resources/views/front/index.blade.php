@@ -42,10 +42,9 @@
 <section class="topic-area pb-120 pt-120">
     <div class="container">
         <div class="section-header mb-60 text-center">
-            <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">HOW IT WORKS</h5>
-            <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Your Path to <span>College Success</span></h2>
+            <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Find The Right Career College Program & Guidance </br>on Your Government Funding</h2>
             <p class="mt-20 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
-                Three simple steps to secure your college admission with maximum funding
+                Our experts guide you in choosing the best program based on your preferences and understand how  the funding support works.
             </p>
         </div>
 
@@ -62,10 +61,10 @@
             </div>
             <div class="col-xl-7 col-lg-7">
                 <div class="wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                    <h5 class="primary-color mb-15">STEP 1</h5>
-                    <h3 class="mb-20">Find Your Flexible College</h3>
+                    <h5 class="primary-color mb-15">Step 1</h5>
+                    <h3 class="mb-20">Free Consultation</h3>
                     <p class="mb-0">
-                        We take the time to understand your goals and find the accredited career college with courses that offer the flexibility to fit your current schedule.
+                        We talk about your career goals, schedule needs (online, part-time, full-time), and what matters most to you. This helps us understand the right fit for your situation.
                     </p>
                 </div>
             </div>
@@ -85,9 +84,9 @@
             <div class="col-xl-7 col-lg-7">
                 <div class="wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
                     <h5 class="primary-color mb-15">STEP 2</h5>
-                    <h3 class="mb-20">Secure Maximum Student Aid</h3>
+                    <h3 class="mb-20">Program & Funding Opportunities Available</h3>
                     <p class="mb-0">
-                        Our experts walk you through the entire financial aid process—from OSAP to Better Jobs Ontario—to ensure you maximize every dollar you qualify for. This is our focus.
+                        We recommend the best career college programs based on your preferences. Then we assess funding option you qualify for -OSAP, Better Jobs Ontario, Second Career, and more -so you get funding support so you can focus on your studies.
                     </p>
                 </div>
             </div>
@@ -107,9 +106,9 @@
             <div class="col-xl-7 col-lg-7">
                 <div class="wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
                     <h5 class="primary-color mb-15">STEP 3</h5>
-                    <h3 class="mb-20">Your Education, Free Support</h3>
+                    <h3 class="mb-20">Admission & Enrollment Support</h3>
                     <p class="mb-0">
-                        Our services are 100% free for students. We partner only with top, accredited Canadian career colleges like Academy of Learning and CIMT College to ensure quality.
+                        We guide you through your applications, coordinate with the college on your behalf, and advise you on securing your funding. We stay with you every step until you're enrolled and ready to start.
                     </p>
                 </div>
             </div>
@@ -119,6 +118,7 @@
 </section>
 <!-- How it works area end here -->
 
+{{--
 <!-- About area start here -->
 <section class="about-area pt-120 pb-120 sub-bg">
     <div class="container">
@@ -228,74 +228,17 @@
     </div>
 </section>
 <!-- About area end here -->
-
-
-
-
-
-
-<!-- Topic area start here -->
-<section class="topic-area pt-120 pb-120">
-    <div class="container">
-        <div class="section-header mb-60 text-center">
-            <h5>TOP CLASS COURSES</h5>
-            <h2>Popular <span>Topics To Learn</span></h2>
-        </div>
-        <div class="row g-4">
-            <div class="col-xl-6 col-md-6 wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
-                <div class="topic__item item-one">
-                    <div class="topic__icon">
-                        <i class="fa-solid fa-calculator"></i>
-                    </div>
-                    <div class="topic__content">
-                        <h4><a href="{{ route('courses') }}?filter=accounting">Accounting</a></h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-6 col-md-6 wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
-                <div class="topic__item item-two">
-                    <div class="topic__icon">
-                        <i class="fa-solid fa-briefcase"></i>
-                    </div>
-                    <div class="topic__content">
-                        <h4><a href="{{ route('courses') }}?filter=business">Business</a></h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-6 col-md-6 wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
-                <div class="topic__item item-three">
-                    <div class="topic__icon">
-                        <i class="fa-solid fa-heart-pulse"></i>
-                    </div>
-                    <div class="topic__content">
-                        <h4><a href="{{ route('courses') }}?filter=healthcare">Healthcare</a></h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-6 col-md-6 wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
-                <div class="topic__item item-four">
-                    <div class="topic__icon">
-                        <i class="fa-solid fa-laptop-code"></i>
-                    </div>
-                    <div class="topic__content">
-                        <h4><a href="{{ route('courses') }}?filter=it">Information Technology</a></h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Topic area end here -->
+--}}
 
 
 
 @if(count($courses) > 0)
 <!-- Courses area start here -->
-<section class="courses-area pt-120 pb-120 sub-bg">
+<section class="courses-area pt-120 sub-bg">
     <div class="container">
         <div class="section-header mb-60 text-center">
-            <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">POPULAR COURSES</h5>
-            <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Explore Our <span>Popular Courses</h2>
+            <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">We Match You With The Right Career College Program</h2>
+            <p>From technology and healthcare to business and skilled trades—we guide you to the perfect program from</br> 100+ options across Ontario's accredited career colleges.</p>
         </div>
         <div class="row g-4">
             
@@ -308,6 +251,97 @@
 </section>
 <!-- Courses area end here -->
 @endif
+
+<!-- Topic area start here -->
+<section class="topic-area pt-120 pb-120 sub-bg">
+    <div class="container">
+        <div class="section-header mb-60 text-center">
+            <h2>Every Career Path. Every Goal. We've Got You Covered.</h2>
+            <p>Whatever field interests you, we'll connect you with accredited programs that match your schedule, budget, and career goals <br/>and help you to understand the funding options available.</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-xl-4 col-md-6 wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
+                <div class="topic__item item-one">
+                    <div class="topic__icon">
+                        <i class="fa-solid fa-calculator"></i>
+                    </div>
+                    <div class="topic__content">
+                        <h4><a href="{{ route('courses') }}?filter=accounting">Accounting</a></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6 wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
+                <div class="topic__item item-two">
+                    <div class="topic__icon">
+                        <i class="fa-solid fa-briefcase"></i>
+                    </div>
+                    <div class="topic__content">
+                        <h4><a href="{{ route('courses') }}?filter=business">Business</a></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6 wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
+                <div class="topic__item item-three">
+                    <div class="topic__icon">
+                        <i class="fa-solid fa-heart-pulse"></i>
+                    </div>
+                    <div class="topic__content">
+                        <h4><a href="{{ route('courses') }}?filter=healthcare">Healthcare</a></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6 wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
+                <div class="topic__item item-four">
+                    <div class="topic__icon">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <div class="topic__content">
+                        <h4><a href="{{ route('courses') }}?filter=it">Information Technology</a></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6 wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
+                <div class="topic__item item-five">
+                    <div class="topic__icon">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <div class="topic__content">
+                        <h4><a href="{{ route('courses') }}?filter=healthcare">Personal Support Worker</a></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6 wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
+                <div class="topic__item item-six">
+                    <div class="topic__icon">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <div class="topic__content">
+                        <h4><a href="{{ route('courses') }}">And Many More...</a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Call to Action -->
+        <div class="mt-100 row sub-bg-two" style="border-radius: 16px;">
+            <div class="col-12">
+                <div class="text-center p-5">
+                    <h3 class="mb-20">Ready To Find Your Perfect Program?</h3>
+                    <p class="mb-30">Book a free consultation. We'll discuss your goals, show you all your program options, and help you get every dollar of funding you qualify for.</p>
+                    <a href="{{ route('scheduleCall') }}" class="btn-one">Start Your Free Consultation <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- Topic area end here -->
+
+
+
+
 
 
 

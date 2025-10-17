@@ -32,7 +32,9 @@
             'accounting' => 'Accounting',
             'business' => 'Business',
             'healthcare' => 'Healthcare',
-            'it' => 'Information Technology'
+            'it' => 'Information Technology',
+            // 'psw' => 'Personal Support Worker',
+            // 'and_many_more' => 'And Many More...'
         ];
     }
 
