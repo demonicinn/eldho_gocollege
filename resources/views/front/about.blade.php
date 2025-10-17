@@ -19,63 +19,9 @@
 <!-- Banner area end here -->
 
 
-<!-- About area start here -->
-<section class="about-area about-inner-area pt-120 extra-padding">
-    <div class="container">
-        <div class="row g-4">
-            <div class="col-xl-5 wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <div class="about__left-part">
-                    <div class="about__image">
-                        <img src="assets/images/about/about-image1.png" alt="image">
-                        <img class="sm-image" src="assets/images/about/about-image2.png" alt="image">
-                        <div class="count-info">
-                            <h5 class="primary-color fs-28"><span class="count primary-color">25</span>+</h5>
-                            <span class="fs-14">Years Experience</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-7">
-                <div class="about__right-wrp">
-                    <div class="section-header">
-                        <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">ABOUT US</h5>
-                        <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Learn & Grow
-                            Your Skills From Anywhere
-                        </h2>
-                        <p class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Aonsectetur
-                            adipiscing elit Aenean scelerisque augue vitae consequat Juisque eget
-                            congue
-                            velit in cursus leo sodales the
-                            turpis euismod quis sapien euismod quis sapien the.</p>
-                    </div>
-                    <div class="about__right-part mt-30 wow fadeInDown" data-wow-delay="200ms"
-                        data-wow-duration="1500ms">
-                        <div class="about__info">
-                            <div class="icon bg__1">
-                                <img src="assets/images/icon/about-icon1.png" alt="icon">
-                            </div>
-                            <div>
-                                <h4>Educator Support</h4>
-                                <p class="mt-10">Elit Aenean scelerisque vitae consequat the.</p>
-                            </div>
-                        </div>
-                        <div class="about__info">
-                            <div class="icon bg__2">
-                                <img src="assets/images/icon/about-icon2.png" alt="icon">
-                            </div>
-                            <div>
-                                <h4>Flexible Classes</h4>
-                                <p class="mt-10">Elit Aenean scelerisque vitae consequat the.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- About area end here -->
 
+
+@include('components.about')
 
 @include('components.testimonials')
 
@@ -85,10 +31,9 @@
     <div class="container">
         <div class="col-xl-5">
             <div class="discout-two__item">
-                <h2 class="text-white wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">15% Offer
-                    For All Categories Courses</h2>
+                <h2 class="text-white wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Ready To Find Your Perfect Program?</h2>
                 <a href="{{ route('scheduleCall') }}" class="btn-one-light mt-30 wow fadeInUp" data-wow-delay="00ms"
-                    data-wow-duration="1500ms">Join Courses<i class="fa-light fa-arrow-right-long"></i></a>
+                    data-wow-duration="1500ms">Start Your Free Consultation<i class="fa-light fa-arrow-right-long"></i></a>
             </div>
         </div>
     </div>

@@ -13,7 +13,7 @@
                 <!-- Simplifying College Admissions With Full Funding Options -->
                 Simplifying College Admissions & Funding Options
             </h1>
-            <p class="mt-20 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">Get free admission guidance to top Ontario career colleges and secure the best financial aid options.</p>
+            <p class="mt-20 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">Get free admission guidance to top Ontario career colleges and understand your financial aid options.</p>
             <a href="{{ route('scheduleCall') }}" class="btn-one mt-50">Check My Eligibility<i class="fa-light fa-arrow-right-long"></i></a>
         </div>
     </div>
@@ -21,14 +21,14 @@
         <div class="banner__info" data-depth="0.03">
             <img src="assets/images/icon/banner-hero-icon.png" alt="icon">
             <div>
-                <h5 class="fs-28"><span class="count secondary-color">100</span>+</h5>
+                <h5 class="fs-28"><span class="count secondary-color">250</span>+</h5>
                 <span class="fs-14">Admissions</span>
             </div>
         </div>
         <div class="banner__info info2" data-depth="0.03">
             <img src="assets/images/icon/banner-hero-icon2.png" alt="icon">
             <div>
-                <h5 class="fs-28"><span class="count secondary-color">25</span>+</h5>
+                <h5 class="fs-28"><span class="count secondary-color">100</span>+</h5>
                 <span class="fs-14">Courses</span>
             </div>
         </div>
@@ -42,7 +42,7 @@
 <section class="topic-area pb-120 pt-120">
     <div class="container">
         <div class="section-header mb-60 text-center">
-            <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Find The Right Career College Program & Guidance </br>on Your Government Funding</h2>
+            <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Free Expert Guidance: Find The Right Career College Program & Understand Your Government Funding Options.</h2>
             <p class="mt-20 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
                 Our experts guide you in choosing the best program based on your preferences and understand how  the funding support works.
             </p>
@@ -215,7 +215,7 @@
             <div class="col-12">
                 <div class="text-center p-5">
                     <h3 class="mb-20">Ready To Find Your Perfect Program?</h3>
-                    <p class="mb-30">Book a free consultation. We'll discuss your goals, show you all your program options, and help you get every dollar of funding you qualify for.</p>
+                    <p class="mb-30">Book a free consultation. We'll discuss your goals, show you all your program options, and guide you through available funding options.</p>
                     <a href="{{ route('scheduleCall') }}" class="btn-one">Start Your Free Consultation <i class="fa-solid fa-arrow-right-long"></i></a>
                 </div>
             </div>
@@ -230,116 +230,7 @@
 
 
 
-
-<!-- About area start here -->
-<section class="about-area pt-120 pb-120">
-    <div class="container">
-        <div class="section-header mb-60 text-center">
-            <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">About GoCollege.ca</h5>
-            <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Your Pathway to Higher Education - <span>Free Admission Guidance</span></h2>
-            <p class="mt-20 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
-                We specialize in helping Ontario students access career college education through OSAP funding and government financial aid.
-            </p>
-        </div>
-
-        <div class="row g-4 mb-60">
-            <!-- Stats Card 1 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="fanfact__item wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                    <div class="fanfact__icon bg1">
-                        <i class="fa-solid fa-graduation-cap"></i>
-                    </div>
-                    <h2><span class="count">100</span>+</h2>
-                    <span>Successful Admissions</span>
-                </div>
-            </div>
-
-            <!-- Stats Card 2 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="fanfact__item wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
-                    <div class="fanfact__icon bg2">
-                        <i class="fa-solid fa-book-open"></i>
-                    </div>
-                    <h2><span class="count">25</span>+</h2>
-                    <span>Available Courses</span>
-                </div>
-            </div>
-
-            <!-- Stats Card 3 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="fanfact__item wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                    <div class="fanfact__icon bg3">
-                        <i class="fa-solid fa-calendar-check"></i>
-                    </div>
-                    <h2><span class="count">5</span>+</h2>
-                    <span>Years Experience</span>
-                </div>
-            </div>
-
-            <!-- Stats Card 4 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="fanfact__item wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
-                    <div class="fanfact__icon bg4">
-                        <i class="fa-solid fa-dollar-sign"></i>
-                    </div>
-                    <h2><span class="count">100</span>%</h2>
-                    <span>Free Service</span>
-                </div>
-            </div>
-        </div>
-
-        <!-- Main Content with Image -->
-        <div class="row g-4 align-items-center">
-            <div class="col-xl-5 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <div class="position-relative">
-                    <img src="https://res.cloudinary.com/dy4lolmvf/image/upload/v1759423400/gocollege_srve18.webp" 
-                         alt="About College Pathways" 
-                         class="img-fluid rounded-3 shadow">
-                </div>
-            </div>
-
-            <div class="col-xl-7">
-                <div class="wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                    <!-- Feature Card 1 -->
-                    <div class="about__info mb-30">
-                        <div class="icon bg__1">
-                            <i class="fa-solid fa-money-bill"></i>
-                        </div>
-                        <div>
-                            <h4>Funding Specialists</h4>
-                            <p class="mt-10">Expert guidance through OSAP, Better Jobs Ontario, and other government financial aid programs to maximize your funding.</p>
-                        </div>
-                    </div>
-
-                    <!-- Feature Card 2 -->
-                    <div class="about__info mb-30">
-                        <div class="icon bg__2">
-                            <i class="fa-solid fa-building-columns"></i>
-                        </div>
-                        <div>
-                            <h4>College Partnerships</h4>
-                            <p class="mt-10">Direct connections with accredited career colleges like Academy of Learning and CIMT College across Ontario.</p>
-                        </div>
-                    </div>
-
-                    <!-- Feature Card 3 -->
-                    <div class="about__info mb-30">
-                        <div class="icon bg__3">
-                            <i class="fa-solid fa-user-graduate"></i>
-                        </div>
-                        <div>
-                            <h4>Personalized Support</h4>
-                            <p class="mt-10">One-on-one guidance from application to admission, ensuring you find the perfect program that fits your schedule and goals.</p>
-                        </div>
-                    </div>
-
-                    <a href="https://gocollege.ca/about-us" class="btn-one mt-20">Learn More About Us<i class="fa-light fa-arrow-right-long"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- About area end here -->
+@include('components.about')
 
 
 @include('components.testimonials')
