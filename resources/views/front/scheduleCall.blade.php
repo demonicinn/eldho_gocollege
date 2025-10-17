@@ -111,7 +111,7 @@
                                     <label class="btn btn-outline-primary w-100 text-font fs-14 py-2" for="anytime">Anytime</label>
                                 </div>
 
-                                @error('contact_time')<span>{{ $message }}</span>@enderror
+                                @error('contact_time')<span class="text-danger">{{ $message }}</span>@enderror
                             </div>
                         </div>
 
@@ -119,14 +119,14 @@
                         <div class="mb-4">
                             <div class="row g-2">
                                 <div class="col-6">
-                                    <input type="radio" class="btn-check" name="consent" id="agree" value="agree" required>
+                                    <input type="radio" class="btn-check" name="consent" id="agree" value="agree" >
                                     <label class="btn btn-outline-primary w-100 text-font fs-14" for="agree">I Agree</label>
                                 </div>
                                 <div class="col-6">
                                     <input type="radio" class="btn-check" name="consent" id="disagree" value="disagree">
                                     <label class="btn btn-outline-secondary w-100 text-font fs-14" for="disagree">I Disagree</label>
                                 </div>
-                                @error('consent')<span>{{ $message }}</span>@enderror
+                                @error('consent')<span class="text-danger">{{ $message }}</span>@enderror
                             </div>
                             <p class="text-font fs-12 mt-2 mb-0">
                                 By selecting "I Agree", I consent to be contacted by GoCollege.ca via phone, email, or text to discuss educational opportunities. I can opt out anytime. I also agree to the <a href="#" class="primary-color">Terms</a> and <a href="#" class="primary-color">Privacy Policy</a>.
