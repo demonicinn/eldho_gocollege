@@ -50,7 +50,7 @@
             <div class="col-lg-10 text-center">
                 <h5 class="text-uppercase mb-15 sm-font">Your Education, Your Future</h5>
                 <h2 class="mb-20">Making Education Accessible</h2>
-                <p>At Go College, we believe financial barriers shouldn't stop you from pursuing your career goals. We offer multiple funding options and our Financial Aid team is here to help you navigate every step of the process.</p>
+                <p>At GoCollege, we believe financial barriers shouldn't stop you from pursuing your career goals. We guide you through government funding options like OSAP and Better Jobs Ontario, helping you understand what you may qualify for and help you to apply.</p>
             </div>
         </div>
     </div>
